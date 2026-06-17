@@ -396,18 +396,33 @@ header {
 .main-grid {
   display: grid;
   grid-template-columns: 260px 1fr 260px;
+  grid-template-areas: "left-sidebar main-content right-sidebar";
   gap: 30px;
   padding: 40px;
 }
 
 .main-grid.two-cols-left {
   grid-template-columns: 260px 1fr;
+  grid-template-areas: "left-sidebar main-content";
 }
 
 .main-grid.one-col {
   grid-template-columns: 1fr;
+  grid-template-areas: "main-content";
   max-width: 850px;
   margin: 0 auto;
+}
+
+.sidebar.left {
+  grid-area: left-sidebar;
+}
+
+.sidebar.right {
+  grid-area: right-sidebar;
+}
+
+.content-area {
+  grid-area: main-content;
 }
 
 /* --- Premium Sidebar Styles --- */
@@ -1015,35 +1030,22 @@ footer {
 
 /* --- Responsive Media Queries --- */
 
-/* Tablet view */
-@media (max-width: 1024px) {
-  .main-grid {
-    grid-template-columns: 240px 1fr; /* hide right sidebar on tablet */
-    gap: 20px;
-    padding: 30px;
-  }
-  
-  .main-grid .sidebar.right {
-    display: none;
-  }
-  
-  header {
-    padding: 15px 30px;
+/* Large Tablets / Squeezed Screens */
+@media (max-width: 1340px) {
+  .wrap {
+    margin: 20px;
+    border-radius: var(--radius-md);
   }
 }
 
-/* Mobile view */
-@media (max-width: 768px) {
-  body {
-    background-image: none;
-  }
-  
+/* Tablet view & Menu Breakdown Breakpoint */
+@media (max-width: 1024px) {
   .wrap {
-    margin: 0;
-    border-radius: 0;
-    border: none;
+    margin: 15px;
+    border-radius: var(--radius-md);
   }
 
+  /* Header & Mobile Toggle navigation */
   header {
     flex-wrap: wrap;
     padding: 15px 20px;
@@ -1106,34 +1108,100 @@ footer {
     display: block;
   }
 
-  .mySlides {
-    height: 220px;
+  /* Main Grid 2-column layout (Stack sidebars on the right) */
+  .main-grid {
+    grid-template-columns: 1fr 280px;
+    grid-template-areas:
+      "main-content left-sidebar"
+      "main-content right-sidebar";
+    gap: 25px;
+    padding: 30px 20px;
   }
 
+  .main-grid.two-cols-left {
+    grid-template-columns: 1fr 280px;
+    grid-template-areas:
+      "main-content left-sidebar";
+  }
+
+  /* Banner Heights for Tablets */
   .hero-banner-container {
-    height: 150px; /* Capped for mobile screens */
+    height: 240px;
   }
 
-  .hero-banner-overlay {
-    padding: 0 15px;
-    background: rgba(0, 0, 0, 0.35);
+  .mySlides {
+    height: 280px;
   }
 
   .banner-text-card {
     padding: 24px 30px;
-    border-left-width: 4px;
     max-width: 100%;
-    margin: 0 10px;
+    margin: 0 15px;
   }
 
-  .main-grid {
-    grid-template-columns: 1fr; /* Stack sidebars vertically */
+  /* Footer layout */
+  footer {
+    padding: 45px 30px 25px 30px;
+  }
+
+  .footer-content {
+    gap: 35px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+  
+  .wrap {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+  }
+
+  /* Main Grid single column layout */
+  .main-grid, .main-grid.two-cols-left {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "main-content"
+      "left-sidebar"
+      "right-sidebar";
     padding: 20px 15px;
     gap: 25px;
   }
 
-  .main-grid .sidebar.left {
-    order: 2; /* Sidebar below primary content */
+  /* Hero Banner for Mobile */
+  .hero-banner-container {
+    height: 200px;
+  }
+
+  .mySlides {
+    height: 240px;
+  }
+
+  .hero-banner-overlay {
+    padding: 0 15px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .banner-text-card {
+    padding: 16px 20px;
+    border-left-width: 4px;
+    margin: 0 10px;
+  }
+
+  .banner-title {
+    font-size: clamp(24px, 5vw, 36px);
+  }
+
+  .banner-subtitle {
+    font-size: clamp(12px, 2.5vw, 14px);
+  }
+
+  .contents p {
+    text-align: left;
   }
 
   .contents img.welcome-img {
@@ -1151,5 +1219,30 @@ footer {
     grid-template-columns: 1fr;
     gap: 30px;
     padding-bottom: 30px;
+  }
+
+  /* Directory Tables mobile sizing */
+  .sub-tab tr.head td, .sub-tab th {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+
+  .sub-tab tr.light td {
+    padding: 12px 14px;
+    font-size: 12.5px;
+  }
+}
+
+/* Extra Small Mobile / Contact Forms */
+@media (max-width: 576px) {
+  /* Stack inline forms */
+  .contact-form-card .form-row {
+    grid-template-columns: 1fr !important;
+    flex-direction: column !important;
+  }
+  
+  .places-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
