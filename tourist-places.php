@@ -47,7 +47,7 @@
             <!-- Card 1: Vellore Fort -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/vellorefort.png" alt="Vellore Fort">
+                <img src="vellorefort.png" alt="Vellore Fort">
               </div>
               <div class="place-info">
                 <h3>Vellore Fort</h3>
@@ -64,7 +64,7 @@
             <!-- Card 2: Sripuram Golden Temple -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/golden-temple.jpg" alt="Sripuram Golden Temple">
+                <img src="golden-temple.jpg" alt="Sripuram Golden Temple">
               </div>
               <div class="place-info">
                 <h3>Sripuram Golden Temple</h3>
@@ -81,7 +81,7 @@
             <!-- Card 3: Jalakandeswarar Temple -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/vellore-fort.png" alt="Jalakandeswarar Temple">
+                <img src="vellore-fort.png" alt="Jalakandeswarar Temple">
               </div>
               <div class="place-info">
                 <h3>Jalakandeswarar Temple</h3>
@@ -98,7 +98,7 @@
             <!-- Card 4: Government Museum -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/govtmuseum.png" alt="Government Museum">
+                <img src="govtmuseum.png" alt="Government Museum">
               </div>
               <div class="place-info">
                 <h3>Government Museum</h3>
@@ -115,7 +115,7 @@
             <!-- Card 5: St. John's Church -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/vellore-fort.png" alt="St. John's Church" style="filter: brightness(0.85) sepia(0.25);">
+                <img src="vellore-fort.png" alt="St. John's Church" style="filter: brightness(0.85) sepia(0.25);">
               </div>
               <div class="place-info">
                 <h3>St. John's Church</h3>
@@ -132,7 +132,7 @@
             <!-- Card 6: Ratnagiri Murugan Temple -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/golden-temple.jpg" alt="Ratnagiri Murugan Temple" style="filter: brightness(0.85) contrast(1.15);">
+                <img src="golden-temple.jpg" alt="Ratnagiri Murugan Temple" style="filter: brightness(0.85) contrast(1.15);">
               </div>
               <div class="place-info">
                 <h3>Ratnagiri Murugan Temple</h3>
@@ -149,7 +149,7 @@
             <!-- Card 7: Vallimalai Murugan Temple -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/golden-temple.jpg" alt="Vallimalai Murugan Temple" style="filter: brightness(0.9) saturate(0.9);">
+                <img src="golden-temple.jpg" alt="Vallimalai Murugan Temple" style="filter: brightness(0.9) saturate(0.9);">
               </div>
               <div class="place-info">
                 <h3>Vallimalai Murugan Temple</h3>
@@ -166,7 +166,7 @@
             <!-- Card 8: Amirthi Zoological Park -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/amirthi-forest.png" alt="Amirthi Zoological Park">
+                <img src="amirthi-forest.png" alt="Amirthi Zoological Park">
               </div>
               <div class="place-info">
                 <h3>Amirthi Zoo & Park</h3>
@@ -183,7 +183,7 @@
             <!-- Card 9: Jalagamparai Waterfalls -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/jalgamparai-falls.png" alt="Jalagamparai Waterfalls">
+                <img src="jalgamparai-falls.png" alt="Jalagamparai Waterfalls">
               </div>
               <div class="place-info">
                 <h3>Jalagamparai Falls</h3>
@@ -200,7 +200,7 @@
             <!-- Card 10: Vainu Bappu Observatory -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/observatory.png" alt="Vainu Bappu Observatory">
+                <img src="observatory.png" alt="Vainu Bappu Observatory">
               </div>
               <div class="place-info">
                 <h3>Vainu Bappu Observatory</h3>
@@ -217,7 +217,7 @@
             <!-- Card 11: Yelagiri Hills -->
             <div class="place-card">
               <div class="place-img-container">
-                <img src="images/tourist-places/yelagiri-hills.png" alt="Yelagiri Hills">
+                <img src="yelagiri-hills.png" alt="Yelagiri Hills">
               </div>
               <div class="place-info">
                 <h3>Yelagiri Hills</h3>

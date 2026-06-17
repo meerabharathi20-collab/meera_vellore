@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>vellore travels - Thank You</title>
-  <link rel="stylesheet" href="css/css.css?v=15">
-  <script src="js/js.js" defer></script>
+  <link rel="stylesheet" href="css.css?v=15">
+  <script src="js.js" defer></script>
   
 </head>
 <body id="index">
@@ -20,13 +20,13 @@
     
     <div class="w3-content w3-display-container">
       <div class="w3-display-container mySlides">
-        <img src="slides/p_0001.jpg" alt="Vellore Fort" style="width:100%">
+        <img src="p_0001.jpg" alt="Vellore Fort" style="width:100%">
       </div>
       <div class="w3-display-container mySlides">
-        <img src="slides/p_0002.jpg" alt="Golden Temple" style="width:100%">
+        <img src="p_0002.jpg" alt="Golden Temple" style="width:100%">
       </div>
       <div class="w3-display-container mySlides">
-        <img src="slides/p_0003.jpg" alt="Sightseeing" style="width:100%">
+        <img src="p_0003.jpg" alt="Sightseeing" style="width:100%">
       </div>
     </div>
   
