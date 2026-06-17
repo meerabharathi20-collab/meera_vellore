@@ -395,19 +395,19 @@ header {
 /* --- Main Responsive Grid --- */
 .main-grid {
   display: grid;
-  grid-template-columns: 260px 1fr 260px;
+  grid-template-columns: 260px minmax(0, 1fr) 260px;
   grid-template-areas: "left-sidebar main-content right-sidebar";
   gap: 30px;
   padding: 40px;
 }
 
 .main-grid.two-cols-left {
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 260px minmax(0, 1fr);
   grid-template-areas: "left-sidebar main-content";
 }
 
 .main-grid.one-col {
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   grid-template-areas: "main-content";
   max-width: 850px;
   margin: 0 auto;
@@ -423,6 +423,7 @@ header {
 
 .content-area {
   grid-area: main-content;
+  min-width: 0;
 }
 
 /* --- Premium Sidebar Styles --- */
@@ -826,6 +827,8 @@ textarea.form-control {
   padding: 15px 0;
   scrollbar-width: thin;
   scrollbar-color: var(--primary) transparent;
+  width: 100%;
+  max-width: 100%;
 }
 
 .places-scroller::-webkit-scrollbar {
@@ -1110,7 +1113,7 @@ footer {
 
   /* Main Grid 2-column layout (Stack sidebars on the right) */
   .main-grid {
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: minmax(0, 1fr) 280px;
     grid-template-areas:
       "main-content left-sidebar"
       "main-content right-sidebar";
@@ -1119,7 +1122,7 @@ footer {
   }
 
   .main-grid.two-cols-left {
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: minmax(0, 1fr) 280px;
     grid-template-areas:
       "main-content left-sidebar";
   }
@@ -1163,7 +1166,7 @@ footer {
 
   /* Main Grid single column layout */
   .main-grid, .main-grid.two-cols-left {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       "main-content"
       "left-sidebar"
@@ -1204,10 +1207,21 @@ footer {
     text-align: left;
   }
 
+  .contents img {
+    float: none !important;
+    display: block !important;
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 15px auto !important;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+  }
+
   .contents img.welcome-img {
-    float: none;
-    width: 100%;
-    margin: 0 0 15px 0;
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 15px 0 !important;
   }
 
   .contact-grid {
