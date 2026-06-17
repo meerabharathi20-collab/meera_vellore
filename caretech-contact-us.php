@@ -50,7 +50,7 @@ function validate(evt) {
 <?php include 'includes/header.php'; ?>
 <div class="page-content">
   <!-- Banner Section -->
-  <div id="page-banner-section" class="page-banner-section container-fluid p_z"> <img src="images/contactus.jpg" >
+  <div id="page-banner-section" class="page-banner-section container-fluid p_z"> <img src="contactus.jpg" >
     <!-- Banner Inner -->
     <div class="page-title">
       <div class="container ">
@@ -75,7 +75,7 @@ function validate(evt) {
     <div class="container">
       <!-- contact-address-section -->
       <div class="col-md-5 col-sm-12 col-xs-12">
-        <div class="contact-logo-box"> <img src="images/logo.png" alt="logo" height="30px"> </div>
+        <div class="contact-logo-box"> <img src="logo.png" alt="logo" height="30px"> </div>
         <div class="contact-address">
           <p> <i class="fa fa-map-marker"></i> <span> # AH 30/256, Ground Floor, 7th Main road, Shanthi Colony, <br>
 Anna Nagar, Chennai - 600040, Tamil Nadu, India.</span> </p>
