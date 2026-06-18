@@ -3,173 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vellore travels - Tourist Places, Jalagamparai Water Falls, Attaru River, Falls in Vellore, Vellore water falls, vellore sanctuary</title>
-  <link rel="stylesheet" href="css.css?v=17">
-  <script src="js.js" defer></script>
+  <title>Jalagamparai Water Falls — Vellore Travels</title>
+  <meta name="description" content="Explore Vellore with our comprehensive city guide. Discover top tourist attractions, historical landmarks, hotels, local business listings, and transit options." />
+  <link rel="stylesheet" href="css.css?v=20">
+  <script src="js.js?v=20" defer></script>
   
 </head>
-<body id="tourist">
-  <div class="wrap">
-    <!-- Header -->
-    <!-- Header -->
-<header>
-  <div class="header-left">
-    <a href="index.html">
-      <div class="logo-container">
-        <img src="logo.png" alt="Vellore Travels logo">
-      </div>
-      <h1>Vellore <span>Travels</span></h1>
+<body>
+  <!-- ───── NAVBAR ───── -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-icon">🗺️</span>
+      <span>Vellore.jbss.in</span>
     </a>
-  </div>
-  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <div class="header-right">
-    <div class="header-right-links">
-      <a href="index.html" class="header-btn">Home</a>
-      <a href="sitemap.html" class="header-btn">Sitemap</a>
-      <a href="contactus.html" class="header-btn">Contact Us</a>
-    </div>
-  </div>
-</header>
-
-
-    <!-- Navigation Menu (Colleges and Online Booking removed) -->
-    
-<!-- Navigation Menu (Colleges and Online Booking removed) -->
-<div class="nav-container" id="navContainer">
-  <ul class="nav-menu">
-    <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
-    <li class="nav-item active">
-      <a href="tourist-places.html" class="nav-link">Tourist Places</a>
-      <ul class="dropdown-menu">
-        <li class="dropdown-item"><a href="vellore-fort.html">Vellore Fort</a></li>
-        <li class="dropdown-item"><a href="golden-temple.html">Golden Temple</a></li>
-        <li class="dropdown-item"><a href="govt-museum.html">Government Museum</a></li>
-        <li class="dropdown-item"><a href="observatory.html">Kavalur Observatory</a></li>
-        <li class="dropdown-item"><a href="yelagiri.html">Yelagiri</a></li>
-        <li class="dropdown-item"><a href="amrithi-forest.html">Amirthi Forest</a></li>
-        <li class="dropdown-item"><a href="jalagamparai-falls.html">Jalagamparai Falls</a></li>
-      </ul>
-    </li>
-    <li class="nav-item "><a href="vellore-hotels.html" class="nav-link">Hotels to Stay</a></li>
-    <li class="nav-item "><a href="vellore-atm.html" class="nav-link">ATM</a></li>
-    <li class="nav-item "><a href="vellore-banks.html" class="nav-link">Banks</a></li>
-    <li class="nav-item "><a href="vellore-taxiservice.html" class="nav-link">Taxi</a></li>
-    <li class="nav-item "><a href="tour-operator.html" class="nav-link">Tour Operators</a></li>
-    <li class="nav-item "><a href="contactus.html" class="nav-link">Contact Us</a></li>
-  </ul>
-</div>
-
-    <!-- Banner Slideshow -->
-    
-
-    <!-- Main Grid -->
-    <div class="main-grid">
-      
-      <!-- Left Sidebar (Tourist Places) -->
-      
-<!-- Left Sidebar (Tourist Places) -->
-<div class="sidebar left">
-  <div class="sidebar-card">
-    <h3 class="sidebar-title">Tourist Places</h3>
-    <ul class="sidebar-list">
-      <li><a href="vellore-fort.html">Vellore Fort</a></li>
-      <li><a href="govt-museum.html">Government Museum</a></li>
-      <li><a href="observatory.html">Kavalur Observatory</a></li>
-      <li><a href="yelagiri.html">Yelagiri</a></li>
-      <li><a href="amrithi-forest.html">Amirthi Forest</a></li>
-      <li><a href="jalagamparai-falls.html">Jalagamparai Falls</a></li>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="tourist-places.html" class="nav-link dropdown-toggle" data-page="tourist">Places to Visit <span class="dd-arrow">▼</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="vellore-fort.html" class="dd-item"><span class="dd-icon">🏰</span> Vellore Fort</a></li>
+          <li><a href="golden-temple.html" class="dd-item"><span class="dd-icon">🛕</span> Golden Temple</a></li>
+          <li><a href="govt-museum.html" class="dd-item"><span class="dd-icon">🏛️</span> Government Museum</a></li>
+          <li><a href="observatory.html" class="dd-item"><span class="dd-icon">🔭</span> Kavalur Observatory</a></li>
+          <li><a href="yelagiri.html" class="dd-item"><span class="dd-icon">⛰️</span> Yelagiri Hills</a></li>
+          <li><a href="amrithi-forest.html" class="dd-item"><span class="dd-icon">🌳</span> Amirthi Forest</a></li>
+          <li><a href="jalagamparai-falls.html" class="dd-item"><span class="dd-icon">🌊</span> Jalagamparai Falls</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="vellore-hotels.html" class="nav-link dropdown-toggle" data-page="business">Business Directory <span class="dd-arrow">▼</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="vellore-hotels.html" class="dd-item"><span class="dd-icon">🏨</span> Hotels to Stay</a></li>
+          <li><a href="vellore-atm.html" class="dd-item"><span class="dd-icon">🏪</span> ATM Centres</a></li>
+          <li><a href="vellore-banks.html" class="dd-item"><span class="dd-icon">🏦</span> Banks</a></li>
+          <li><a href="vellore-taxiservice.html" class="dd-item"><span class="dd-icon">🚕</span> Taxi Services</a></li>
+          <li><a href="tour-operator.html" class="dd-item"><span class="dd-icon">🚌</span> Tour Operators</a></li>
+        </ul>
+      </li>
+      <li><a href="testimonials.html" class="nav-link" data-page="testimonials">Testimonials</a></li>
+      <li><a href="contactus.html" class="nav-link" data-page="contact">Contact Us</a></li>
     </ul>
-  </div>
-  <div class="sidebar-card">
-    <h3 class="sidebar-title">Golden Temples</h3>
-    <a href="golden-temple.html">
-      <img src="golden-temple.gif" alt="Golden Temple" style="padding: 10px; width: 100%;">
-    </a>
-  </div>
-</div>
+  </nav>
 
+    <section class="page active" id="page-details">
+      <div class="details-hero">
+        <div class="details-hero-bg" style="background-image: url('jalgamparai-falls.png')"></div>
+        <div class="details-hero-content">
+          <div class="details-breadcrumbs">
+            <a href="index.html" class="breadcrumb-link">Home</a> &gt;
+            <a href="tourist-places.html" class="breadcrumb-link">Places to Visit</a> &gt;
+            <span class="breadcrumb-current">Jalagamparai Water Falls</span>
+          </div>
+          <div class="details-badge">Water Falls</div>
+          <h1 class="details-title">Jalagamparai Water Falls</h1>
+        </div>
+      </div>
 
-      <!-- Main Content Area -->
-      <main class="content-area">
-        <div class="contents">
-          <h1><a href="tourist-places.html">Tourst Places</a> &raquo; <span>Jalagamparai Water Falls </span></h1>
-<p>Jalagamparai water falls is located in the Yelagiri hills of the Vellore <img src="jalgamparai-falls.png" alt="Amirthi Forest" style="float:right; margin:5px 0px 5px 10px;" />district of Tamil Nadu. Flowing down from a breathtaking height of 15 meters, the place is popular among lovebirds. Created by the Attaru river, which flows through the Yelagiri hills.</p>
+      <div class="section-container details-container">
+        <div class="details-grid">
+          <div class="details-main-content">
+            <div class="details-image-wrapper">
+              <img src="jalgamparai-falls.png" alt="Jalagamparai Water Falls">
+            </div>
+            <div class="details-description">
+              <h2>About Jalagamparai Water Falls</h2>
+              <p>Jalagamparai water falls is located in the Yelagiri hills of the Vellore district of Tamil Nadu. Flowing down from a breathtaking height of 15 meters, the place is popular among lovebirds. Created by the Attaru river, which flows through the Yelagiri hills.</p>
 <p> Jalagamparai waterfalls is a beautiful spot for picnic. The falls can be reached after a 1 hour trek of 6 km from Nilavoor. Best time to visit the falls is after the monsoon rains. </p>
 <p>This could either be reached from Tiruppathur 15 kms away or it is an hour�s trek from the hills. Adjacent to the Jalagambari falls, there is a Murugan temple, located within a building constructed in the shape of the lingam. </p>
+            </div>
+          </div>
+
+          <div class="details-sidebar">
+            <div class="details-info-box">
+              <h3 class="info-box-title">Quick Information</h3>
+              <div class="info-item">
+                <strong>Category</strong>
+                <p>Water Falls</p>
+              </div>
+              <div class="info-item"><strong>Address</strong><p>Jalagamparai Falls Road, Yelagiri, Tamil Nadu 635853</p></div><div class="info-item"><strong>Timings</strong><p>6:00 AM – 6:00 PM</p></div><div class="info-item"><strong>Entry Fee</strong><p>Free entry (Best visited after monsoons)</p></div>
+              <div class="map-action-wrap">
+                <a href="https://maps.google.com/?q=Jalagamparai+Waterfalls" target="_blank" class="btn-red map-btn">Open in Google Maps →</a>
+              </div>
+              <div style="margin-top: 1rem;">
+                <a href="tourist-places.html" class="btn-red go-back-btn" style="border: 1px solid var(--gray-300); background: transparent;">Back to Places</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
+      </div>
+    </section>
+    
+  <!-- Redesigned Red Footer -->
+  <footer class="red-footer">
+    <div class="footer-zigzag"></div>
+    <div class="footer-grid-new">
+      <div class="footer-col-new">
+        <h3>About Vellore</h3>
+        <p>Vellore is an ancient and historically rich urban hub in Tamil Nadu, India, situated on the banks of the Palar River. Celebrated as the "Fort City," it is famous for its magnificent 16th-century fort, Sripuram Golden Temple, and world-renowned medical and educational institutions.</p>
+      </div>
 
-      <!-- Right Sidebar (Enquiry & Testimonial) -->
-      
-<!-- Right Sidebar (Enquiry & Testimonial) -->
-<div class="sidebar right">
-  <div class="sidebar-card">
-    <h3 class="sidebar-title">Quick Enquiry</h3>
-    <form action="mail-right.html" method="post" name="cont" onsubmit="return validateEnquiry();" class="enquiry-form">
-      <div class="form-group">
-        <label for="eq_name">Name</label>
-        <input type="text" id="eq_name" name="Name" required placeholder="Your Name" class="form-control">
+      <div class="footer-col-new">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-new">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tourist-places.html">Sightseeing</a></li>
+          <li><a href="vellore-hotels.html">Hotels & Stays</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
       </div>
-      <div class="form-group">
-        <label for="eq_mobile">Mobile No.</label>
-        <input type="text" id="eq_mobile" name="Mobile_No" required placeholder="Mobile Number" class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="eq_email">Email Id.</label>
-        <input type="email" id="eq_email" name="EMail" required placeholder="Email Address" class="form-control">
-      </div>
-      <div class="form-group">
-        <label for="eq_message">Message</label>
-        <textarea id="eq_message" name="Message" required placeholder="Your Message" class="form-control"></textarea>
-      </div>
-      <button type="submit" class="btn-submit">Send Enquiry</button>
-    </form>
-  </div>
-  <div class="sidebar-card">
-    <h3 class="sidebar-title">Testimonials</h3>
-    <div class="testimonial-box">
-      <div class="testimonial-item">
-        <h4>Shrine Properties</h4>
-        <p>The marketing consultants of flats and plots dealing with the real estate.</p>
-      </div>
-      <div class="testimonial-item">
-        <h4>Shrine Properties</h4>
-        <p>The marketing consultants of flats and plots dealing with the real estate.</p>
+
+      <div class="footer-col-new">
+        <h3>Follow Us</h3>
+        <div class="footer-socials-new">
+          <a href="#" class="social-circle fb">F</a>
+          <a href="#" class="social-circle ig">I</a>
+          <a href="#" class="social-circle yt">Y</a>
+          <a href="#" class="social-circle tw">X</a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-</div>
-
-    <!-- Footer -->
-    <!-- Footer -->
-<footer>
-  <div class="footer-content">
-    <div class="footer-about">
-      <h3>Vellore Travels</h3>
-      <p>Explore the Fort City of Tamil Nadu. Experience rich heritage, historical monuments, and scenic waterfalls with our premium travel services.</p>
+    <div class="footer-bottom-new">
+      <p>Copyright &copy; 2026 | Powered by JB Soft System</p>
     </div>
-    <div class="footer-links">
-      <h3>Quick Links</h3>
-      <div class="footer-links-grid">
-        <a href="index.html">Home</a>
-        <a href="tourist-places.html">Sightseeing</a>
-        <a href="vellore-hotels.html">Hotels</a>
-        <a href="contactus.html">Contact Us</a>
-        <a href="sitemap.html">Sitemap</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 <span>Vellore Travels</span>. All rights reserved.</p>
-  </div>
-</footer>
-
-  </div>
+  </footer>
 </body>
 </html>

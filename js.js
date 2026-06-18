@@ -1,14 +1,152 @@
-// JS Utilities for Vellore Travels Responsive HTML Site
+// ═══════════════════════════════════════
+//   VELLORE TRAVELS — JS CONTROLLER
+// ═══════════════════════════════════════
 
-// 1. Mobile Hamburger Menu Toggle
-function toggleMobileMenu() {
-  const nav = document.getElementById("navContainer");
-  if (nav) {
-    nav.classList.toggle("open");
+/* ── Sticky Navbar Scroll Shadow ── */
+window.addEventListener('scroll', () => {
+  const navbar = document.getElementById('navbar');
+  if (navbar) {
+    navbar.classList.toggle('scrolled', window.scrollY > 10);
   }
+}, { passive: true });
+
+/* ── Mobile Hamburger Menu Toggle ── */
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks  = document.getElementById('navLinks');
+
+  if (hamburger && navLinks) {
+    hamburger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = navLinks.classList.toggle('open');
+      hamburger.classList.toggle('open', isOpen);
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('open');
+        document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+          dropdown.classList.remove('open');
+        });
+      }
+    });
+  }
+
+  // Mobile dropdown toggles on click
+  document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', (e) => {
+        if (window.innerWidth <= 1024) {
+          e.preventDefault(); // Stop direct link navigation on mobile
+          const isOpen = dropdown.classList.toggle('open');
+          // Close other open dropdowns
+          document.querySelectorAll('.nav-dropdown').forEach(other => {
+            if (other !== dropdown) other.classList.remove('open');
+          });
+        }
+      });
+    }
+  });
+
+  // Dynamic Navigation Link Active States
+  const path = window.location.pathname;
+  const page = path.split("/").pop() || "index.html";
+  
+  document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.getAttribute('href') === page) {
+      link.classList.add('active');
+    }
+  });
+  
+  // Highlight parent dropdown if child dropdown item is active
+  document.querySelectorAll('.dropdown-menu a').forEach(subLink => {
+    if (subLink.getAttribute('href') === page) {
+      const parentDropdown = subLink.closest('.nav-dropdown');
+      if (parentDropdown) {
+        const toggle = parentDropdown.querySelector('.dropdown-toggle');
+        if (toggle) toggle.classList.add('active');
+      }
+    }
+  });
+
+  // Start Slider if present on page
+  initSlider();
+
+  // Scroll Reveal Initialization
+  initScrollReveal();
+});
+
+/* ── Auto-playing Homepage Slider ── */
+let currentSlide = 0;
+let slideInterval = null;
+
+function initSlider() {
+  const slides = document.querySelectorAll('.slide');
+  if (slides.length === 0) return;
+  
+  showSlide(currentSlide);
+  startSlideTimer();
 }
 
-// 2. Validate Quick Enquiry Form (Right Sidebar)
+function showSlide(index) {
+  const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.dot');
+  if (slides.length === 0) return;
+
+  if (index >= slides.length) currentSlide = 0;
+  else if (index < 0) currentSlide = slides.length - 1;
+  else currentSlide = index;
+
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === currentSlide);
+  });
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+  });
+}
+
+function moveSlide(step) {
+  showSlide(currentSlide + step);
+  resetSlideTimer();
+}
+
+function setSlide(index) {
+  showSlide(index);
+  resetSlideTimer();
+}
+
+function startSlideTimer() {
+  slideInterval = setInterval(() => {
+    showSlide(currentSlide + 1);
+  }, 6000);
+}
+
+function resetSlideTimer() {
+  clearInterval(slideInterval);
+  startSlideTimer();
+}
+
+/* ── Scroll Reveal ── */
+function initScrollReveal() {
+  if (typeof IntersectionObserver === 'undefined') return;
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -20px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+}
+
+/* ── Existing Form Validation Logic ── */
+
+// 1. Validate Quick Enquiry Form (Right Sidebar)
 function validateEnquiry() {
   const name = document.getElementById("eq_name").value.trim();
   const mobile = document.getElementById("eq_mobile").value.trim();
@@ -20,14 +158,12 @@ function validateEnquiry() {
     return false;
   }
 
-  // Validate digits only for mobile
   const digitRegex = /^[0-9]+$/;
   if (!digitRegex.test(mobile) || mobile.length < 10) {
     alert("Please enter a valid 10-digit Mobile Number.");
     return false;
   }
 
-  // Email regex check
   const emailRegex = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-Z0-9]{2,4}$/;
   if (!emailRegex.test(email)) {
     alert("Please enter a valid Email Id.");
@@ -42,28 +178,25 @@ function validateEnquiry() {
   return true;
 }
 
-// 3. Validate Contact Form (Contact Us Page)
+// 2. Validate Contact Form (Contact Us Page)
 function ValidateContactForm() {
   const name = document.getElementById("FullName").value.trim();
   const phone = document.getElementById("PhoneNo").value.trim();
-  const email = document.querySelector("input[name='Email']").value.trim();
-  const comments = document.querySelector("textarea[name='Comments']").value.trim();
+  const email = document.getElementById("Email").value.trim();
+  const comments = document.getElementById("Comments").value.trim();
 
-  // Validate Name (no numbers or special characters)
   const nameRegex = /^[a-zA-Z\s]+$/;
   if (!nameRegex.test(name) || name.length < 2) {
     alert("Please enter a valid Name without numbers and special characters.");
     return false;
   }
 
-  // Validate Phone
   const digitRegex = /^[0-9]+$/;
   if (!digitRegex.test(phone) || phone.length < 8) {
     alert("Please enter a valid Phone Number.");
     return false;
   }
 
-  // Validate Email
   const emailRegex = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-Z0-9]{2,4}$/;
   if (!emailRegex.test(email)) {
     alert("Please enter a valid Email Id.");
@@ -75,7 +208,6 @@ function ValidateContactForm() {
     return false;
   }
 
-  // Captcha validation
   if (typeof grecaptcha !== 'undefined') {
     const captchaResponse = grecaptcha.getResponse();
     if (captchaResponse.length === 0) {
@@ -86,102 +218,3 @@ function ValidateContactForm() {
 
   return true;
 }
-
-// 4. Validate Online Booking Form (Online Booking Page)
-function OnlineCheck() {
-  const form = document.OnlineBookingForm;
-  
-  if (!form.startdate.value) {
-    alert("Please select the Required on Date");
-    form.startdate.focus();
-    return false;
-  }
-
-  if (!form.PersonName.value.trim()) {
-    alert("Please Enter the Name");
-    form.PersonName.focus();
-    return false;
-  }
-
-  if (!form.Mobile.value.trim()) {
-    alert("Please Enter the Mobile No.");
-    form.Mobile.focus();
-    return false;
-  }
-
-  const email = form.Email.value.trim();
-  if (!email) {
-    alert("Please Enter the Email Id.");
-    form.Email.focus();
-    return false;
-  }
-
-  const emailRegex = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-Z0-9]{2,4}$/;
-  if (!emailRegex.test(email)) {
-    alert("Please enter a valid Email Id.");
-    form.Email.focus();
-    return false;
-  }
-
-  if (!form.Address.value.trim()) {
-    alert("Please Enter the Address");
-    form.Address.focus();
-    return false;
-  }
-
-  if (!form.PlaceToGo.value.trim()) {
-    alert("Please Enter the Place Name");
-    form.PlaceToGo.focus();
-    return false;
-  }
-
-  if (!form.LandMark.value.trim()) {
-    alert("Please Enter the Landmark");
-    form.LandMark.focus();
-    return false;
-  }
-
-  const vehicles = form.NoOfVehicles.value.trim();
-  if (!vehicles || isNaN(vehicles)) {
-    alert("Please enter the number of vehicles required (numeric values only).");
-    form.NoOfVehicles.focus();
-    return false;
-  }
-
-  return true;
-}
-
-// Slider Functionality
-let slideIndex = 0;
-let slideTimeout;
-
-function showDivs() {
-  let i;
-  const slides = document.getElementsByClassName("mySlides");
-  if (!slides || slides.length === 0) return;
-
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  
-  slides[slideIndex - 1].style.display = "block";
-  
-  clearTimeout(slideTimeout);
-  slideTimeout = setTimeout(showDivs, 5000); // Change image every 5 seconds
-}
-
-// Start Slider on DOM Load
-document.addEventListener("DOMContentLoaded", () => {
-  showDivs();
-  
-  // Connect Mobile Menu Toggle
-  const toggleBtn = document.getElementById("menuToggle");
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", toggleMobileMenu);
-  }
-});
