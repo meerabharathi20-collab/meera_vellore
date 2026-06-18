@@ -3,103 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vellore travels - Contact Us, Yelagiri, Amrithi Forest, hotels in vellore, vellore hotel, atm in vellore, vellore atm centre, banks in vellore, vellore banks, colleges, college in vellore</title>
-  <link rel="stylesheet" href="css.css?v=17">
-  <script src="js.js" defer></script>
+  <title>Contact Vellore Travels — Vellore Travels</title>
+  <meta name="description" content="Explore Vellore with our comprehensive city guide. Discover top tourist attractions, historical landmarks, hotels, local business listings, and transit options." />
+  <link rel="stylesheet" href="css.css?v=20">
+  <script src="js.js?v=20" defer></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-<body id="contact">
-  <div class="wrap">
-    <!-- Header -->
-    <!-- Header -->
-<header>
-  <div class="header-left">
-    <a href="index.html">
-      <div class="logo-container">
-        <img src="logo.png" alt="Vellore Travels logo">
-      </div>
-      <h1>Vellore <span>Travels</span></h1>
+<body>
+  <!-- ───── NAVBAR ───── -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-icon">🗺️</span>
+      <span>Vellore.jbss.in</span>
     </a>
-  </div>
-  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <div class="header-right">
-    <div class="header-right-links">
-      <a href="index.html" class="header-btn">Home</a>
-      <a href="sitemap.html" class="header-btn">Sitemap</a>
-      <a href="contactus.html" class="header-btn">Contact Us</a>
-    </div>
-  </div>
-</header>
-
-
-    <!-- Navigation Menu (Colleges and Online Booking removed) -->
-    
-<!-- Navigation Menu (Colleges and Online Booking removed) -->
-<div class="nav-container" id="navContainer">
-  <ul class="nav-menu">
-    <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
-    <li class="nav-item ">
-      <a href="tourist-places.html" class="nav-link">Tourist Places</a>
-      <ul class="dropdown-menu">
-        <li class="dropdown-item"><a href="vellore-fort.html">Vellore Fort</a></li>
-        <li class="dropdown-item"><a href="golden-temple.html">Golden Temple</a></li>
-        <li class="dropdown-item"><a href="govt-museum.html">Government Museum</a></li>
-        <li class="dropdown-item"><a href="observatory.html">Kavalur Observatory</a></li>
-        <li class="dropdown-item"><a href="yelagiri.html">Yelagiri</a></li>
-        <li class="dropdown-item"><a href="amrithi-forest.html">Amirthi Forest</a></li>
-        <li class="dropdown-item"><a href="jalagamparai-falls.html">Jalagamparai Falls</a></li>
-      </ul>
-    </li>
-    <li class="nav-item "><a href="vellore-hotels.html" class="nav-link">Hotels to Stay</a></li>
-    <li class="nav-item "><a href="vellore-atm.html" class="nav-link">ATM</a></li>
-    <li class="nav-item "><a href="vellore-banks.html" class="nav-link">Banks</a></li>
-    <li class="nav-item "><a href="vellore-taxiservice.html" class="nav-link">Taxi</a></li>
-    <li class="nav-item "><a href="tour-operator.html" class="nav-link">Tour Operators</a></li>
-    <li class="nav-item active"><a href="contactus.html" class="nav-link">Contact Us</a></li>
-  </ul>
-</div>
-
-    <!-- Banner Slideshow -->
-    
-
-    <!-- Main Grid -->
-    <div class="main-grid two-cols-left">
-      
-      <!-- Left Sidebar (Tourist Places) -->
-      
-<!-- Left Sidebar (Tourist Places) -->
-<div class="sidebar left">
-  <div class="sidebar-card">
-    <h3 class="sidebar-title">Tourist Places</h3>
-    <ul class="sidebar-list">
-      <li><a href="vellore-fort.html">Vellore Fort</a></li>
-      <li><a href="govt-museum.html">Government Museum</a></li>
-      <li><a href="observatory.html">Kavalur Observatory</a></li>
-      <li><a href="yelagiri.html">Yelagiri</a></li>
-      <li><a href="amrithi-forest.html">Amirthi Forest</a></li>
-      <li><a href="jalagamparai-falls.html">Jalagamparai Falls</a></li>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="tourist-places.html" class="nav-link dropdown-toggle" data-page="tourist">Places to Visit <span class="dd-arrow">▼</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="vellore-fort.html" class="dd-item"><span class="dd-icon">🏰</span> Vellore Fort</a></li>
+          <li><a href="golden-temple.html" class="dd-item"><span class="dd-icon">🛕</span> Golden Temple</a></li>
+          <li><a href="govt-museum.html" class="dd-item"><span class="dd-icon">🏛️</span> Government Museum</a></li>
+          <li><a href="observatory.html" class="dd-item"><span class="dd-icon">🔭</span> Kavalur Observatory</a></li>
+          <li><a href="yelagiri.html" class="dd-item"><span class="dd-icon">⛰️</span> Yelagiri Hills</a></li>
+          <li><a href="amrithi-forest.html" class="dd-item"><span class="dd-icon">🌳</span> Amirthi Forest</a></li>
+          <li><a href="jalagamparai-falls.html" class="dd-item"><span class="dd-icon">🌊</span> Jalagamparai Falls</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="vellore-hotels.html" class="nav-link dropdown-toggle" data-page="business">Business Directory <span class="dd-arrow">▼</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="vellore-hotels.html" class="dd-item"><span class="dd-icon">🏨</span> Hotels to Stay</a></li>
+          <li><a href="vellore-atm.html" class="dd-item"><span class="dd-icon">🏪</span> ATM Centres</a></li>
+          <li><a href="vellore-banks.html" class="dd-item"><span class="dd-icon">🏦</span> Banks</a></li>
+          <li><a href="vellore-taxiservice.html" class="dd-item"><span class="dd-icon">🚕</span> Taxi Services</a></li>
+          <li><a href="tour-operator.html" class="dd-item"><span class="dd-icon">🚌</span> Tour Operators</a></li>
+        </ul>
+      </li>
+      <li><a href="testimonials.html" class="nav-link" data-page="testimonials">Testimonials</a></li>
+      <li><a href="contactus.html" class="nav-link" data-page="contact">Contact Us</a></li>
     </ul>
-  </div>
-  <div class="sidebar-card">
-    <h3 class="sidebar-title">Golden Temples</h3>
-    <a href="golden-temple.html">
-      <img src="golden-temple.gif" alt="Golden Temple" style="padding: 10px; width: 100%;">
-    </a>
-  </div>
-</div>
+  </nav>
 
-
-      <!-- Main Content Area -->
-      <main class="content-area">
-        <div class="contents">
-          <h1>Contact <span>Us</span></h1>
-
-
-      <form name="cntctus" method="post" action="mail.php" onsubmit="return ValidateContactForm();" class="contact-form-card">
+    <section class="page active" id="page-general">
+      <div class="page-hero">
+        <div class="details-breadcrumbs">
+          <a href="index.html" class="breadcrumb-link" style="color: var(--gray-700);">Home</a> &gt;
+          <span class="breadcrumb-current" style="color: var(--accent); font-weight: 600;">Contact Us</span>
+        </div>
+        <h1>Contact Vellore Travels</h1>
+      </div>
+      <div class="section-container">
+        <div class="reveal visible">
+          <form name="cntctus" method="post" action="mail.php" onsubmit="return ValidateContactForm();" class="contact-form-card">
         <div class="mandatory-notice">* Mandatory Fields</div>
         <div class="form-group">
           <label for="FullName"><span class="red">*</span> Name</label>
@@ -144,37 +103,42 @@
 
 <br />
         </div>
-      </main>
+      </div>
+    </section>
+    
+  <!-- Redesigned Red Footer -->
+  <footer class="red-footer">
+    <div class="footer-zigzag"></div>
+    <div class="footer-grid-new">
+      <div class="footer-col-new">
+        <h3>About Vellore</h3>
+        <p>Vellore is an ancient and historically rich urban hub in Tamil Nadu, India, situated on the banks of the Palar River. Celebrated as the "Fort City," it is famous for its magnificent 16th-century fort, Sripuram Golden Temple, and world-renowned medical and educational institutions.</p>
+      </div>
 
-      <!-- Right Sidebar (Enquiry & Testimonial) -->
-      
+      <div class="footer-col-new">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-new">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tourist-places.html">Sightseeing</a></li>
+          <li><a href="vellore-hotels.html">Hotels & Stays</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
 
-    </div>
-
-    <!-- Footer -->
-    <!-- Footer -->
-<footer>
-  <div class="footer-content">
-    <div class="footer-about">
-      <h3>Vellore Travels</h3>
-      <p>Explore the Fort City of Tamil Nadu. Experience rich heritage, historical monuments, and scenic waterfalls with our premium travel services.</p>
-    </div>
-    <div class="footer-links">
-      <h3>Quick Links</h3>
-      <div class="footer-links-grid">
-        <a href="index.html">Home</a>
-        <a href="tourist-places.html">Sightseeing</a>
-        <a href="vellore-hotels.html">Hotels</a>
-        <a href="contactus.html">Contact Us</a>
-        <a href="sitemap.html">Sitemap</a>
+      <div class="footer-col-new">
+        <h3>Follow Us</h3>
+        <div class="footer-socials-new">
+          <a href="#" class="social-circle fb">F</a>
+          <a href="#" class="social-circle ig">I</a>
+          <a href="#" class="social-circle yt">Y</a>
+          <a href="#" class="social-circle tw">X</a>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 <span>Vellore Travels</span>. All rights reserved.</p>
-  </div>
-</footer>
-
-  </div>
+    <div class="footer-bottom-new">
+      <p>Copyright &copy; 2026 | Powered by JB Soft System</p>
+    </div>
+  </footer>
 </body>
 </html>
