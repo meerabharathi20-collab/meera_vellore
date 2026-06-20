@@ -55,9 +55,9 @@
                 <ul>
                   <li><strong>Address:</strong> Opposite Old Bus Stand, Fort Area, Vellore - 632002</li>
                   <li><strong>Timings:</strong> 8:00 AM – 6:00 PM (Entry Fee: ₹15)</li>
-                  <li><strong>Official Site:</strong> <a href="https://vellore.nic.in/tourist-place/vellore-fort/" target="_blank" style="color: var(--primary); text-decoration: underline;">Vellore District Tourism &raquo;</a></li>
+                  <li><strong>Location:</strong> <a href="https://maps.google.com/?q=Vellore+Fort" target="_blank" style="color: var(--primary); text-decoration: underline;">View on Google Maps &raquo;</a></li>
                 </ul>
-                <a href="vellore-fort.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Vellore+Fort" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -72,9 +72,9 @@
                 <ul>
                   <li><strong>Address:</strong> Sri Narayani Peedam, Thirumalaikodi, Vellore - 632055</li>
                   <li><strong>Timings:</strong> 8:00 AM – 8:00 PM (Ph: +91 416 220 6500)</li>
-                  <li><strong>Official Site:</strong> <a href="https://sripuram.org/" target="_blank" style="color: var(--primary); text-decoration: underline;">Sripuram Portal &raquo;</a></li>
+                  <li><strong>Location:</strong> <a href="https://maps.google.com/?q=Sripuram+Golden+Temple" target="_blank" style="color: var(--primary); text-decoration: underline;">View on Google Maps &raquo;</a></li>
                 </ul>
-                <a href="golden-temple.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Sripuram+Golden+Temple" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -89,9 +89,9 @@
                 <ul>
                   <li><strong>Address:</strong> Inside Vellore Fort Premises, Balaji Nagar, Vellore - 632002</li>
                   <li><strong>Timings:</strong> 6:30 AM – 1:00 PM & 4:30 PM – 8:30 PM</li>
-                  <li><strong>Official Site:</strong> <a href="https://www.tamilnadutourism.tn.gov.in/destinations/vellore-fort" target="_blank" style="color: var(--primary); text-decoration: underline;">Tamil Nadu Tourism &raquo;</a></li>
+                  <li><strong>Location:</strong> <a href="https://maps.google.com/?q=Jalakandeswarar+Temple+Vellore+Fort" target="_blank" style="color: var(--primary); text-decoration: underline;">View on Google Maps &raquo;</a></li>
                 </ul>
-                <a href="vellore-fort.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Jalakandeswarar+Temple+Vellore+Fort" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -108,14 +108,14 @@
                   <li><strong>Timings:</strong> 9:00 AM – 12:30 PM & 2:00 PM – 5:00 PM</li>
                   <li>* Closed on Tuesdays and Public Holidays</li>
                 </ul>
-                <a href="govt-museum.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Government+Museum+Vellore+Fort" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
             <!-- Card 5: St. John's Church -->
             <div class="place-card">
-              <div class="place-img-container">
-                <img src="vellore-fort.png" alt="St. John's Church" style="filter: brightness(0.85) sepia(0.25);">
+              <div class="place-img-container" style="background-color: #f0f4f8; display: flex; align-items: center; justify-content: center;">
+                <img src="st-johns-church.png" alt="St. John's Church" style="object-fit: contain; width: auto; height: 100%; max-height: 220px;">
               </div>
               <div class="place-info">
                 <h3>St. John's Church</h3>
@@ -125,7 +125,7 @@
                   <li><strong>Timings:</strong> 9:00 AM – 5:00 PM</li>
                   <li><strong>Reference:</strong> British-era historic church from 1846</li>
                 </ul>
-                <a href="vellore-fort.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=St.+John's+Church+Vellore+Fort" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -142,7 +142,7 @@
                   <li><strong>Timings:</strong> 6:00 AM – 1:00 PM & 4:00 PM – 8:00 PM</li>
                   <li>* Hill temple dedicated to Lord Murugan</li>
                 </ul>
-                <a href="golden-temple.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Ratnagiri+Murugan+Temple+Vellore" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -159,7 +159,7 @@
                   <li><strong>Timings:</strong> 6:00 AM – 7:00 PM</li>
                   <li>* Ancient cave temple carved directly into rocky hills</li>
                 </ul>
-                <a href="golden-temple.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Vallimalai+Murugan+Temple+Vellore" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -176,7 +176,7 @@
                   <li><strong>Timings:</strong> 8:00 AM – 5:00 PM (Closed on Tuesdays)</li>
                   <li>* Peaceful forest getaway with seasonal waterfall</li>
                 </ul>
-                <a href="amrithi-forest.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Amirthi+Zoological+Park+Vellore" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -193,7 +193,7 @@
                   <li><strong>Timings:</strong> Best visited right after the monsoon</li>
                   <li>* Scenic cascade created by the Attaru river</li>
                 </ul>
-                <a href="jalagamparai-falls.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Jalagamparai+Waterfalls+Yelagiri" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -210,7 +210,7 @@
                   <li><strong>Timings:</strong> Prior permission needed for stargazing</li>
                   <li>* Houses one of Asia's largest optical telescopes</li>
                 </ul>
-                <a href="observatory.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Vainu+Bappu+Observatory+Kavalur" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
 
@@ -227,7 +227,7 @@
                   <li><strong>Timings:</strong> Accessible 24 hours (Daytime best for travel)</li>
                   <li>* Scenic hill station with orchards, rose gardens, and lakes</li>
                 </ul>
-                <a href="yelagiri.php" class="card-btn">More Info &raquo;</a>
+                <a href="https://maps.google.com/?q=Yelagiri+Hills" target="_blank" class="card-btn">Maps</a>
               </div>
             </div>
           </div>
