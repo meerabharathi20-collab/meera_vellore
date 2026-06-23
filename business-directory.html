@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Vellore Travels — Vellore Travels</title>
+  <title>Business Directory — Vellore Travels</title>
   <meta name="description" content="Explore Vellore with our comprehensive city guide. Discover top tourist attractions, historical landmarks, hotels, local business listings, and transit options." />
   <link rel="stylesheet" href="css.css?v=20">
   <script src="js.js?v=20" defer></script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
 </head>
 <body>
   <!-- ───── NAVBAR ───── -->
@@ -51,57 +51,62 @@
     <section class="page active" id="page-general">
       <div class="page-hero">
         <div class="details-breadcrumbs">
-          <a href="index.html" class="breadcrumb-link" style="color: var(--gray-700);">Home</a> &gt;
-          <span class="breadcrumb-current" style="color: var(--accent); font-weight: 600;">Contact Us</span>
+          <a href="index.html" class="breadcrumb-link" style="color: var(--gray-700);">Home</a> <span style="color: var(--accent); font-weight: 600;">&gt;</span>
+          <span class="breadcrumb-current" style="color: var(--accent); font-weight: 600;">Business Directory</span>
         </div>
-        <h1>Contact Vellore Travels</h1>
+        <h1>Business Directory</h1>
       </div>
       <div class="section-container">
-        <div class="reveal visible">
-          <form name="cntctus" method="post" action="mail.php" onsubmit="return ValidateContactForm();" class="contact-form-card">
-        <div class="mandatory-notice">* Mandatory Fields</div>
-        <div class="form-group">
-          <label for="FullName"><span class="red">*</span> Name</label>
-          <input type="text" id="FullName" name="FullName" required class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="Address">Address</label>
-          <textarea id="Address" name="Address" rows="3" required class="form-control"></textarea>
-        </div>
-        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
-          <div class="form-group">
-            <label for="City">City</label>
-            <input type="text" id="City" name="City" required class="form-control">
+        <div class="directory-blocks" style="padding: 0;">
+          <!-- Card 1: Hotels to Stay -->
+          <div class="dir-block reveal visible" style="opacity: 1; transform: none;">
+            <div class="dir-icon">🏨</div>
+            <div class="dir-info">
+              <h3>Hotels to Stay</h3>
+              <p>Discover high-quality hotels, cozy residency stays, and luxury suites in central Vellore.</p>
+              <a href="vellore-hotels.html" class="btn-red">View Hotels</a>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="Zip_Code">Pin/Zip Code</label>
-            <input type="text" id="Zip_Code" name="Zip_Code" required class="form-control">
+          
+          <!-- Card 2: ATM Centres -->
+          <div class="dir-block reveal visible" style="opacity: 1; transform: none;">
+            <div class="dir-icon">🏪</div>
+            <div class="dir-info">
+              <h3>ATM Centres</h3>
+              <p>Find 24/7 ATM booths from major nationalized and private banks across Vellore city.</p>
+              <a href="vellore-atm.html" class="btn-red">View ATMs</a>
+            </div>
           </div>
-        </div>
-        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
-          <div class="form-group">
-            <label for="PhoneNo"><span class="red">*</span> Phone No</label>
-            <input type="text" id="PhoneNo" name="PhoneNo" required class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="Email"><span class="red">*</span> Email</label>
-            <input type="email" id="Email" name="Email" required class="form-control">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="Comments"><span class="red">*</span> Comments / Message</label>
-          <textarea id="Comments" name="Comments" rows="5" required class="form-control"></textarea>
-        </div>
-        <div class="g-recaptcha" data-sitekey="6LdZyZwUAAAAAJ5mYjNVs5ONEJIAylQxEmkmeL79"></div>
-        <div class="form-row" style="display: flex; gap: 15px; margin-top: 15px;">
-          <button type="submit" class="btn-submit" style="flex: 1;">Send Message</button>
-          <button type="reset" class="btn-submit btn-secondary" style="flex: 1;">Clear Form</button>
-        </div>
-      </form>
-      
-        
 
-<br />
+          <!-- Card 3: Banks -->
+          <div class="dir-block reveal visible" style="opacity: 1; transform: none;">
+            <div class="dir-icon">🏦</div>
+            <div class="dir-info">
+              <h3>Banks</h3>
+              <p>Locate bank branches for immediate financial assistance, wire transfers, and currency exchanges.</p>
+              <a href="vellore-banks.html" class="btn-red">View Banks</a>
+            </div>
+          </div>
+
+          <!-- Card 4: Taxi Services -->
+          <div class="dir-block reveal visible" style="opacity: 1; transform: none;">
+            <div class="dir-icon">🚕</div>
+            <div class="dir-info">
+              <h3>Taxi Services</h3>
+              <p>Book local cab services, taxi operators, and outstation rentals for safe and comfortable travel.</p>
+              <a href="vellore-taxiservice.html" class="btn-red">View Taxis</a>
+            </div>
+          </div>
+
+          <!-- Card 5: Tour Operators -->
+          <div class="dir-block reveal visible" style="opacity: 1; transform: none;">
+            <div class="dir-icon">🚌</div>
+            <div class="dir-info">
+              <h3>Tour Operators</h3>
+              <p>Hire registered tour agencies, vacation package planners, and local sightseeing guides.</p>
+              <a href="tour-operator.html" class="btn-red">View Operators</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

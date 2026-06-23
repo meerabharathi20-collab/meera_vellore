@@ -22,7 +22,7 @@
     <!-- Main Grid -->
     <div class="main-grid two-cols-left">
       
-      <!-- Left Sidebar (Tourist Places) -->
+      <!-- Left Sidebar (Places to Visit) -->
       
 <?php include 'includes/left.php'; ?>
 

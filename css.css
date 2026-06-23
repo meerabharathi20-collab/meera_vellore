@@ -63,7 +63,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex; align-items: center; justify-content: space-between;
   flex-wrap: nowrap;
   padding: 0 2rem;
-  background: rgba(204, 0, 0, 0.95);
+  background: #cc0000;
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   transition: box-shadow var(--transition);
@@ -87,10 +87,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .nav-link {
-  display: flex; align-items: center; gap: 4px;
-  padding: 0.6rem 0.9rem;
-  font-size: 0.88rem; font-weight: 600; letter-spacing: 0.01em;
-  color: rgba(255, 255, 255, 0.85);
+  display: flex; align-items: center; gap: 6px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.05rem; font-weight: 700; letter-spacing: 0.01em;
+  color: #ffffff;
   transition: color var(--transition), background-color var(--transition);
   white-space: nowrap;
   font-family: var(--font-sans);
@@ -98,14 +98,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   cursor: pointer;
 }
 .nav-link:hover, .nav-link.active {
-  background: rgba(255, 255, 255, 0.15); color: var(--white);
+  background: rgba(255, 255, 255, 0.18); color: var(--white);
   border-radius: 6px;
 }
 .nav-link.active .dd-arrow { color: var(--white); }
 
 /* ── Dropdown arrow ── */
 .dd-arrow {
-  font-size: 0.65rem; margin-left: 2px;
+  font-size: 0.75rem; margin-left: 4px;
   transition: transform 0.25s ease;
   display: inline-block;
 }
@@ -450,6 +450,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: 0.88rem;
   line-height: 1.6;
   color: var(--gray-700);
+}
+.preview-card-body p strong {
+  color: #cc0000;
 }
 .centered-btn-wrapper {
   display: flex;
@@ -1053,9 +1056,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   margin-top: 6px;
 }
 .footer-col-new p {
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -1068,8 +1071,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   margin-top: 10px;
 }
 .footer-links-new a {
-  font-size: 0.88rem;
-  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.98rem;
+  color: #ffffff;
   transition: color 0.3s, padding-left 0.3s;
 }
 .footer-links-new a:hover {
@@ -1108,8 +1111,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   text-align: center;
 }
 .footer-bottom-new p {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* ══════════════════════════════════════

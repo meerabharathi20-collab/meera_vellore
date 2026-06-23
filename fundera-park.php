@@ -65,27 +65,30 @@
         <span style="color: #cc0000; font-weight: bold;">&gt;</span>
         <a href="tourist-places.php" style="color: #cc0000; text-decoration: none; font-weight: bold;">Places to Visit</a>
         <span style="color: #cc0000; font-weight: bold;">&gt;</span>
-        <span style="color: #333; font-weight: 500;">Government Museum</span>
+        <span style="color: #333; font-weight: 500;">Fundera Park</span>
       </div>
-      <h1><span>Government Museum </span></h1>
+      <h1><span>Fundera Park </span></h1>
       <p>
         
-        This state Government Museum is inside the fort and can be found on map. This Museum was opened to the public in 1985. It consists of objects of art, archaeology, pre-history, weapons, sculptures, bronzes, wood carvings, handicrafts, numismatics, philately, botany, geology and zoology. It treasures ancient and present day curios relating to Anthropology, Art and Archaeology, Botany, Geology, Numismatics, Pre-history, Zoology, etc.
+        Fundera Park is a unique and interactive exotic bird park and petting zoo located in Yelagiri, Vellore District. It is an amazing family destination where visitors can walk freely among beautiful, exotic birds that fly around without cages.
       </p>
-      <p>The historical monuments of the erst while composite North Arcot District are gracefully depicted in the Gallery. Special exhibits include Bronze double antenna sword from Vellore Taluk, dating back to 400 BC., Stone sculptures from Late Pallava to Vijayanagar periods, Ivory chess board and coins used by the last Kandian King of Sri Lanka, Vikrama Raja Singha.</p>
-      <p> The educational activities of this Museum include Art camp for school students, Study of inscriptions and iconography for college students etc.</p>
-      <p>The Government Museum is situated besides the main bus stand in Lakshmanaswamy Town Hall. The museum is under the watch of Department of Museums. This might be the most unusual museum that you will ever see. The museum is open on all days from 9 a.m to 12 noon and from 2 p.m. to 5 p.m. </p>
-      <h2 style="margin-top: 30px; margin-bottom: 15px; color: var(--accent-primary);">How to Reach Government Museum</h2><ul style="list-style-type: none; padding: 0; margin-bottom: 16px; color: var(--text-secondary); line-height: 1.8;"><li>🚌 <strong>By Bus:</strong> Frequent local buses and autos are available from Vellore Old and New Bus Stands.</li><li>🚆 <strong>By Train:</strong> Nearest railway station is Vellore Town (VLR) at 2 km, or Katpadi Junction (KPD) at 7 km.</li><li>🚕 <strong>By Taxi:</strong> Easily accessible by taxi or auto-rickshaw from any part of the city.</li></ul>
+      <p>
+        Home to a spectacular variety of birds such as Macaws, Cockatoos, Sun Conures, and Iguanas, the park offers an immersive experience. You can feed the birds right from your hands, take incredible photographs, and learn about their natural habitats from expert guides.
+      </p>
+      <p>
+        In addition to the aviaries, Fundera Park features a petting farm where children can interact with friendly domestic animals like miniature ponies, rabbits, guinea pigs, and goats. It is a fantastic spot for a weekend getaway that blends education with nature.
+      </p>
+      <h2 style="margin-top: 30px; margin-bottom: 15px; color: var(--accent-primary);">How to Reach Fundera Park</h2><ul style="list-style-type: none; padding: 0; margin-bottom: 16px; color: var(--text-secondary); line-height: 1.8;"><li>🚌 <strong>By Bus:</strong> Located in Yelagiri Hills, about 90 km from Vellore. Buses run from Tirupattur and Jolarpettai.</li><li>🚆 <strong>By Train:</strong> Nearest railway station is Jolarpettai Junction (JTJ) at 21 km.</li><li>🚕 <strong>By Taxi:</strong> Best reached by a dedicated cab from Vellore or Jolarpettai to navigate the winding hill roads.</li></ul>
     </div>
     <div class="place-image" style="display: flex; flex-direction: column; gap: 20px;">
-      <img src="images/new_govt_museum.png" alt="Government Museum Main View" />
+      <img src="images/fundera_park.jpg" alt="Fundera Park Main View" />
       <div class="gallery-row">
-        <img src="images/museum_grid_1.jpg" alt="Museum Sculptures" class="gallery-img" />
-        <img src="images/museum_grid_2.png" alt="Museum Swords and Weapons" class="gallery-img" />
+        <img src="images/fundera_grid_1.png" alt="Fundera Park Sign" class="gallery-img" />
+        <img src="images/fundera_grid_2.jpg" alt="Fundera Park Hills" class="gallery-img" />
       </div>
       <div class="gallery-row">
-        <img src="images/museum_grid_3.png" alt="Museum Musical Instruments" class="gallery-img" />
-        <img src="images/museum_grid_4.png" alt="Museum Nataraja Bronze" class="gallery-img" />
+        <img src="images/fundera_grid_3.png" alt="Fundera Park Macaws" class="gallery-img" />
+        <img src="images/fundera_grid_4.jpg" alt="Fundera Park Ostrich" class="gallery-img" />
       </div>
     </div>
   </div>
