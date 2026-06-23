@@ -19,7 +19,7 @@
 
     <!-- ───── NAVBAR ───── -->
   <nav class="navbar" id="navbar">
-    <a href="index.html" class="nav-brand">
+    <a href="index.php" class="nav-brand">
       <span class="brand-icon">🗺️</span>
       <span>velloretravels</span>
     </a>
@@ -27,31 +27,31 @@
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+      <li><a href="index.php" class="nav-link" data-page="home">Home</a></li>
       <li class="nav-dropdown">
-        <a href="tourist-places.html" class="nav-link dropdown-toggle" data-page="tourist">Places to Visit <span class="dd-arrow">▼</span></a>
+        <a href="tourist-places.php" class="nav-link dropdown-toggle" data-page="tourist">Places to Visit <span class="dd-arrow">▼</span></a>
         <ul class="dropdown-menu">
-          <li><a href="golden-temple.html" class="dd-item"><span class="dd-icon">🛕</span> Sripuram Golden Temple</a></li>
-          <li><a href="vellore-fort.html" class="dd-item"><span class="dd-icon">🏰</span> Vellore Fort</a></li>
-          <li><a href="jalakandeswarar-temple.html" class="dd-item"><span class="dd-icon">🛕</span> Jalakandeswarar Temple</a></li>
-          <li><a href="amrithi-forest.html" class="dd-item"><span class="dd-icon">🌳</span> Amirthi Forest & Waterfalls</a></li>
-          <li><a href="govt-museum.html" class="dd-item"><span class="dd-icon">🏛️</span> Government Museum</a></li>
-          <li><a href="fundera-park.html" class="dd-item"><span class="dd-icon">⛲</span> Fundera Park</a></li>
-          <li><a href="st-johns-church.html" class="dd-item"><span class="dd-icon">⛪</span> St. John's Church</a></li>
-          <li><a href="ratnagiri-murugan-temple.html" class="dd-item"><span class="dd-icon">🛕</span> Ratnagiri Murugan Temple</a></li>
+          <li><a href="golden-temple.php" class="dd-item"><span class="dd-icon">🛕</span> Sripuram Golden Temple</a></li>
+          <li><a href="vellore-fort.php" class="dd-item"><span class="dd-icon">🏰</span> Vellore Fort</a></li>
+          <li><a href="jalakandeswarar-temple.php" class="dd-item"><span class="dd-icon">🛕</span> Jalakandeswarar Temple</a></li>
+          <li><a href="amrithi-forest.php" class="dd-item"><span class="dd-icon">🌳</span> Amirthi Forest & Waterfalls</a></li>
+          <li><a href="govt-museum.php" class="dd-item"><span class="dd-icon">🏛️</span> Government Museum</a></li>
+          <li><a href="fundera-park.php" class="dd-item"><span class="dd-icon">⛲</span> Fundera Park</a></li>
+          <li><a href="st-johns-church.php" class="dd-item"><span class="dd-icon">⛪</span> St. John's Church</a></li>
+          <li><a href="ratnagiri-murugan-temple.php" class="dd-item"><span class="dd-icon">🛕</span> Ratnagiri Murugan Temple</a></li>
         </ul>
       </li>
       <li class="nav-dropdown">
-        <a href="business-directory.html" class="nav-link dropdown-toggle" data-page="business">Business Directory <span class="dd-arrow">▼</span></a>
+        <a href="#" class="nav-link dropdown-toggle" data-page="business">Business Directory <span class="dd-arrow">▼</span></a>
         <ul class="dropdown-menu">
-          <li><a href="vellore-hotels.html" class="dd-item"><span class="dd-icon">🏨</span> Hotels to Stay</a></li>
-          <li><a href="vellore-atm.html" class="dd-item"><span class="dd-icon">🏪</span> ATM Centres</a></li>
-          <li><a href="vellore-banks.html" class="dd-item"><span class="dd-icon">🏦</span> Banks</a></li>
-          <li><a href="vellore-taxiservice.html" class="dd-item"><span class="dd-icon">🚕</span> Taxi Services</a></li>
-          <li><a href="tour-operator.html" class="dd-item"><span class="dd-icon">🚌</span> Tour Operators</a></li>
+          <li><a href="vellore-hotels.php" class="dd-item"><span class="dd-icon">🏨</span> Hotels to Stay</a></li>
+          <li><a href="vellore-atm.php" class="dd-item"><span class="dd-icon">🏪</span> ATM Centres</a></li>
+          <li><a href="vellore-banks.php" class="dd-item"><span class="dd-icon">🏦</span> Banks</a></li>
+          <li><a href="vellore-taxiservice.php" class="dd-item"><span class="dd-icon">🚕</span> Taxi Services</a></li>
+          <li><a href="tour-operator.php" class="dd-item"><span class="dd-icon">🚌</span> Tour Operators</a></li>
         </ul>
       </li>
-      <li><a href="contactus.html" class="nav-link" data-page="contact">Contact Us</a></li>
+      <li><a href="contactus.php" class="nav-link" data-page="contact">Contact Us</a></li>
     </ul>
   </nav>
 
@@ -61,31 +61,31 @@
   <div style="background:#fff; padding:40px; border-radius:20px; box-shadow:0 20px 40px rgba(0,0,0,0.08);">
     <div class="contents place-detail-layout"><div class="place-text">
 <div class="details-breadcrumbs" style="display: flex; gap: 8px; font-size: 0.9rem; margin-bottom: 25px; align-items: center; justify-content: flex-start; color: #666; font-family: 'Inter', sans-serif;">
-        <a href="index.html" style="color: #666; text-decoration: none;">Home</a>
+        <a href="index.php" style="color: #666; text-decoration: none;">Home</a>
         <span style="color: #cc0000; font-weight: bold;">&gt;</span>
-        <a href="tourist-places.html" style="color: #cc0000; text-decoration: none; font-weight: bold;">Places to Visit</a>
+        <a href="tourist-places.php" style="color: #cc0000; text-decoration: none; font-weight: bold;">Places to Visit</a>
         <span style="color: #cc0000; font-weight: bold;">&gt;</span>
-        <span style="color: #333; font-weight: 500;">Vellore Fort</span>
+        <span style="color: #333; font-weight: 500;">Ratnagiri Murugan Temple</span>
       </div>
-      <h1><span>Vellore Fort </span></h1>
-      <p>Sinna Bommi Nayak built the Vellore Fort in the 16 th century. This fort was built when the Vijayanagara Kingdom was in power in South India. But the possession of the fort was seized from one ruler to another in due course of time.</p>
+      <h1><span>Ratnagiri Murugan Temple </span></h1>
       <p>
         
-        The Fort in Vellore Town has acquired its importance in history. It has a chain of association with the rulers of India as it kept changing hands from one to the other. It was built by a chieftain called Nayak. But the the Sultan of Bijapur in the 17 th century, seized the fort. In the later part of the same century, the Marathas captured the same fort in Vellore.
+        This state Ratnagiri Murugan Temple is inside the fort and can be found on map. This Museum was opened to the public in 1985. It consists of objects of art, archaeology, pre-history, weapons, sculptures, bronzes, wood carvings, handicrafts, numismatics, philately, botany, geology and zoology. It treasures ancient and present day curios relating to Anthropology, Art and Archaeology, Botany, Geology, Numismatics, Pre-history, Zoology, etc.
       </p>
-      <p> In the 18 th century, Daud Khan was successful in possessing the Vellore Fort. This fort was maintained by the Nawab of Arcot but he later gifted it to his son-in-law. It was under him for about 20 years until the British power captured it by force. It was under their control till India attained Independence. The family of Tipu Sultan was imprisoned in this very fort after he was killed in the hands of the British.</p>
-      <p>The Fort of Vellore is built of granite blocks. It is famous for a big moat that surrounds the fort. It is said that at one point of time, crocodiles were kept in this moat of Vellore Fort. This fort is well preserved and a tourist can also check out the mosque, a church and a temple known as Jalakanteswara Temple inside the Vellore Fort. </p>
-      <h2 style="margin-top: 30px; margin-bottom: 15px; color: var(--accent-primary);">How to Reach Vellore Fort</h2><ul style="list-style-type: none; padding: 0; margin-bottom: 16px; color: var(--text-secondary); line-height: 1.8;"><li>🚌 <strong>By Bus:</strong> Frequent local buses and autos are available from Vellore Old and New Bus Stands.</li><li>🚆 <strong>By Train:</strong> Nearest railway station is Vellore Town (VLR) at 2 km, or Katpadi Junction (KPD) at 7 km.</li><li>🚕 <strong>By Taxi:</strong> Easily accessible by taxi or auto-rickshaw from any part of the city.</li></ul>
+      <p>The historical monuments of the erst while composite North Arcot District are gracefully depicted in the Gallery. Special exhibits include Bronze double antenna sword from Vellore Taluk, dating back to 400 BC., Stone sculptures from Late Pallava to Vijayanagar periods, Ivory chess board and coins used by the last Kandian King of Sri Lanka, Vikrama Raja Singha.</p>
+      <p> The educational activities of this Museum include Art camp for school students, Study of inscriptions and iconography for college students etc.</p>
+      <p>The Ratnagiri Murugan Temple is situated besides the main bus stand in Lakshmanaswamy Town Hall. The museum is under the watch of Department of Museums. This might be the most unusual museum that you will ever see. The museum is open on all days from 9 a.m to 12 noon and from 2 p.m. to 5 p.m. </p>
+      <h2 style="margin-top: 30px; margin-bottom: 15px; color: var(--accent-primary);">How to Reach Ratnagiri Temple</h2><ul style="list-style-type: none; padding: 0; margin-bottom: 16px; color: var(--text-secondary); line-height: 1.8;"><li>🚌 <strong>By Bus:</strong> Located 15 km from Vellore on the Chennai-Bangalore Highway (NH 48). All mofussil buses heading towards Chennai stop at Ratnagiri.</li><li>🚆 <strong>By Train:</strong> Nearest station is Vellore-Katpadi Junction (KPD) or Mukundarayapuram.</li><li>🚕 <strong>By Taxi:</strong> A short 20-minute drive by taxi or auto from Vellore city center.</li></ul>
     </div>
     <div class="place-image" style="display: flex; flex-direction: column; gap: 20px;">
-      <img src="images/new_vellore_fort.png" alt="Vellore Fort Main View" />
+      <img src="images/ratnagiri-balamurugan-temple-vellore.webp" alt="Ratnagiri Murugan Temple Main View" />
       <div class="gallery-row">
-        <img src="images/vellore_fort_grid_1.jpg" alt="Vellore Fort View 1" class="gallery-img" />
-        <img src="images/vellore_fort_grid_2.jpg" alt="Vellore Fort View 2" class="gallery-img" />
+        <img src="images/rathnagiri_grid_1.jpg" alt="Ratnagiri Temple Mandapam" class="gallery-img" />
+        <img src="images/rathnagiri_grid_2.jpg" alt="Ratnagiri Temple Steps" class="gallery-img" />
       </div>
       <div class="gallery-row">
-        <img src="images/vellore_fort_grid_3.jpg" alt="Vellore Fort View 3" class="gallery-img" />
-        <img src="images/vellore_fort_grid_4.jpg" alt="Vellore Fort View 4" class="gallery-img" />
+        <img src="images/rathnagiri_grid_3.jpg" alt="Ratnagiri Temple Gopuram View" class="gallery-img" />
+        <img src="images/rathnagiri_grid_4.png" alt="Ratnagiri Temple Arch" class="gallery-img" />
       </div>
     </div>
   </div>
@@ -105,10 +105,10 @@
             <div class="footer-col-new">
         <h3>Quick Links</h3>
         <ul class="footer-links-new">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="tourist-places.html">Places to Visit</a></li>
-          <li><a href="business-directory.html">Business Directory</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="tourist-places.php">Places to Visit</a></li>
+          <li><a href="business-directory.php">Business Directory</a></li>
+          <li><a href="contactus.php">Contact Us</a></li>
         </ul>
       </div>
 
@@ -186,7 +186,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  const currentPath = window.location.pathname.split('/').pop() || 'index.php';
   const navLinks = document.querySelectorAll('.nav-menu a');
   document.querySelectorAll('.nav-menu a').forEach(a => a.classList.remove('active'));
   navLinks.forEach(link => {

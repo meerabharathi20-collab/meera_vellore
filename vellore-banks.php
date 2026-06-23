@@ -3,34 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vellor travels - Banks, Vellore Banks, ICICI Bank Banks vellore, Bankss in Vellore</title>
-  <link rel="stylesheet" href="css.css?v=15">
-  <script src="js.js" defer></script>
+  <title>Bank Branches in Vellore — Vellore Travels</title>
+  <meta name="description" content="Explore Vellore with our comprehensive city guide. Discover top tourist attractions, historical landmarks, hotels, local business listings, and transit options." />
+  <link rel="stylesheet" href="css.css?v=20">
+  <script src="js.js?v=20" defer></script>
   
 </head>
-<body id="banks">
-  <div class="wrap">
-    <!-- Header -->
-    <?php include 'includes/header.php'; ?>
+<body>
+  <?php include 'includes/menu.php'; ?>
 
-    <!-- Navigation Menu (Colleges and Online Booking removed) -->
-    <?php include 'includes/menu.php'; ?>
-
-    <!-- Banner Slideshow -->
-    
-
-    <!-- Main Grid -->
-    <div class="main-grid">
-      
-      <!-- Left Sidebar (Tourist Places) -->
-      
-<?php include 'includes/left.php'; ?>
-
-
-      <!-- Main Content Area -->
-      <main class="content-area">
-        <div class="contents">
-          <h1>Bank <span>Directory</span></h1>
+    <section class="page active" id="page-general">
+      <div class="page-hero">
+        <div class="details-breadcrumbs">
+          <a href="index.php" class="breadcrumb-link" style="color: var(--gray-700);">Home</a> <span style="color: var(--accent); font-weight: 600;">&gt;</span>
+          <span class="breadcrumb-current" style="color: var(--accent); font-weight: 600;">Business Directory > Banks</span>
+        </div>
+        <h1>Bank Branches in Vellore</h1>
+      </div>
+      <div class="section-container">
+        <div class="reveal visible">
           <p>Find centrally located major bank branches in Vellore to cover your financial and transaction needs:</p>
           
           <div class="places-preview-grid" style="margin-top: 2rem;">
@@ -48,10 +39,10 @@
                   <strong>⏰ Timings:</strong> Monday to Saturday: 10:00 AM – 4:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:18001234" style="color: var(--accent); font-weight: bold; text-decoration: none;">1800 1234</a> (Toll-Free)
+                  <strong>📞 Phone:</strong> <a href="tel:18001234" style="color: #000000; font-weight: bold; text-decoration: none;">1800 1234</a> (Toll-Free)
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=State+Bank+of+India+Officers+Line+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=State+Bank+of+India+Officers+Line+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -69,10 +60,10 @@
                   <strong>⏰ Timings:</strong> Monday to Saturday: 10:00 AM – 4:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:18001601" style="color: var(--accent); font-weight: bold; text-decoration: none;">1800 1601</a> (Toll-Free)
+                  <strong>📞 Phone:</strong> <a href="tel:18001601" style="color: #000000; font-weight: bold; text-decoration: none;">1800 1601</a> (Toll-Free)
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=HDFC+Bank+Kosapet+Branch+Viva+Plaza+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=HDFC+Bank+Kosapet+Branch+Viva+Plaza+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -90,10 +81,10 @@
                   <strong>⏰ Timings:</strong> Monday to Saturday: 9:30 AM – 3:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:18001080" style="color: var(--accent); font-weight: bold; text-decoration: none;">1800 1080</a> (Toll-Free)
+                  <strong>📞 Phone:</strong> <a href="tel:18001080" style="color: #000000; font-weight: bold; text-decoration: none;">1800 1080</a> (Toll-Free)
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=ICICI+Bank+Officers+Line+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=ICICI+Bank+Officers+Line+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -111,10 +102,10 @@
                   <strong>⏰ Timings:</strong> Monday to Saturday: 10:00 AM – 4:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:04162221180" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 416 222 1180</a> / <a href="tel:18001030" style="color: var(--accent); font-weight: bold; text-decoration: none;">1800 1030</a> (Toll-Free)
+                  <strong>📞 Phone:</strong> <a href="tel:04162221180" style="color: #000000; font-weight: bold; text-decoration: none;">+91 416 222 1180</a> / <a href="tel:18001030" style="color: #000000; font-weight: bold; text-decoration: none;">1800 1030</a> (Toll-Free)
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Canara+Bank+Vellore+Main+Branch+Town+Hall+Road" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Canara+Bank+Vellore+Main+Branch+Town+Hall+Road" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -132,10 +123,10 @@
                   <strong>⏰ Timings:</strong> Monday to Saturday: 9:30 AM – 3:30 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:18004195959" style="color: var(--accent); font-weight: bold; text-decoration: none;">1800 419 5959</a> (Toll-Free)
+                  <strong>📞 Phone:</strong> <a href="tel:18004195959" style="color: #000000; font-weight: bold; text-decoration: none;">1800 419 5959</a> (Toll-Free)
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Axis+Bank+Officers+Line+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Axis+Bank+Officers+Line+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
           </div>
@@ -152,16 +143,41 @@
             </ul>
           </div>
         </div>
-      </main>
+      </div>
+    </section>
+    
+  <!-- Redesigned Red Footer -->
+  <footer class="red-footer">
+    <div class="footer-zigzag"></div>
+    <div class="footer-grid-new">
+      <div class="footer-col-new">
+        <h3>About Vellore</h3>
+        <p>Vellore is an ancient and historically rich urban hub in Tamil Nadu, India, situated on the banks of the Palar River. Celebrated as the "Fort City," it is famous for its magnificent 16th-century fort, Sripuram Golden Temple, and world-renowned medical and educational institutions.</p>
+      </div>
 
-      <!-- Right Sidebar (Enquiry & Testimonial) -->
-      
-<?php include 'includes/right.php'; ?>
+            <div class="footer-col-new">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-new">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="tourist-places.php">Places to Visit</a></li>
+          <li><a href="business-directory.php">Business Directory</a></li>
+          <li><a href="contactus.php">Contact Us</a></li>
+        </ul>
+      </div>
 
-</div>
-
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
-  </div>
+      <div class="footer-col-new">
+        <h3>Follow Us</h3>
+        <div class="footer-socials-new">
+          <a href="#" class="social-circle fb">F</a>
+          <a href="#" class="social-circle ig">I</a>
+          <a href="#" class="social-circle yt">Y</a>
+          <a href="#" class="social-circle tw">X</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-new">
+      <p>Copyright &copy; 2026 | Powered by JB Soft System</p>
+    </div>
+  </footer>
 </body>
 </html>

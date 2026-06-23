@@ -22,7 +22,7 @@
     <!-- Main Grid -->
     <div class="main-grid">
       
-      <!-- Left Sidebar (Tourist Places) -->
+      <!-- Left Sidebar (Places to Visit) -->
       
 <?php include 'includes/left.php'; ?>
 
@@ -34,7 +34,7 @@
 
         <ul class="sitemap">
           <li><a href="index.php">Home</a></li>
-          <li><a href="tourist-places.php">Tourist Places</a>
+          <li><a href="tourist-places.php">Places to Visit</a>
             <ul>
               <li><a href="vellore-fort.php">Vellore Fort </a></li>
               <li><a href="govt-museum.php">Government Museum </a></li>

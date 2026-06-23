@@ -3,34 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vellore travels - Tour Operators, Vellore Travel Gudie, Tour Operators in Vellore, Vellore Travels, Travel Agencies in Chennai, Transport, Vellore Call Taxi</title>
-  <link rel="stylesheet" href="css.css?v=15">
-  <script src="js.js" defer></script>
+  <title>Travel Agency & Tour Operators — Vellore Travels</title>
+  <meta name="description" content="Explore Vellore with our comprehensive city guide. Discover top tourist attractions, historical landmarks, hotels, local business listings, and transit options." />
+  <link rel="stylesheet" href="css.css?v=20">
+  <script src="js.js?v=20" defer></script>
   
 </head>
-<body id="tour">
-  <div class="wrap">
-    <!-- Header -->
-    <?php include 'includes/header.php'; ?>
+<body>
+  <?php include 'includes/menu.php'; ?>
 
-    <!-- Navigation Menu (Colleges and Online Booking removed) -->
-    <?php include 'includes/menu.php'; ?>
-
-    <!-- Banner Slideshow -->
-    
-
-    <!-- Main Grid -->
-    <div class="main-grid">
-      
-      <!-- Left Sidebar (Tourist Places) -->
-      
-<?php include 'includes/left.php'; ?>
-
-
-      <!-- Main Content Area -->
-      <main class="content-area">
-        <div class="contents">
-          <h1>Tour <span>Operators</span></h1>
+    <section class="page active" id="page-general">
+      <div class="page-hero">
+        <div class="details-breadcrumbs">
+          <a href="index.php" class="breadcrumb-link" style="color: var(--gray-700);">Home</a> <span style="color: var(--accent); font-weight: 600;">&gt;</span>
+          <span class="breadcrumb-current" style="color: var(--accent); font-weight: 600;">Business Directory > Tour Operators</span>
+        </div>
+        <h1>Travel Agency & Tour Operators</h1>
+      </div>
+      <div class="section-container">
+        <div class="reveal visible">
           <p>Here are the top 6 highly-rated travel agencies and tour operators located in central Vellore for booking holiday packages, flight/train tickets, international visas, or specialized medical tourism support:</p>
           
           <div class="places-preview-grid" style="margin-top: 2rem;">
@@ -48,13 +39,13 @@
                   <strong>⏰ Timing:</strong> Monday to Sunday: Open 24 hours
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:7867000777" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 78670 00777</a>
+                  <strong>📞 Phone:</strong> <a href="tel:7867000777" style="color: #000000; font-weight: bold; text-decoration: none;">+91 78670 00777</a>
                 </p>
                 <p style="margin: 0; font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; border-top: 1px dashed var(--gray-200); padding-top: 6px; margin-top: 4px;">
                   <strong>✨ Specialties:</strong> Domestic and international holiday packages, visa processing, and quick flight/train ticket bookings.
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Vellore+Yathra+Tours+and+Travels+Gandhi+Nagar+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Vellore+Yathra+Tours+and+Travels+Gandhi+Nagar+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -72,13 +63,13 @@
                   <strong>⏰ Timing:</strong> Monday to Sunday: Open 24 hours
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:9003923065" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 90039 23065</a>
+                  <strong>📞 Phone:</strong> <a href="tel:9003923065" style="color: #000000; font-weight: bold; text-decoration: none;">+91 90039 23065</a>
                 </p>
                 <p style="margin: 0; font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; border-top: 1px dashed var(--gray-200); padding-top: 6px; margin-top: 4px;">
                   <strong>✨ Specialties:</strong> Custom group tours, international vacation bookings, resort stays, and Tirupati temple tickets.
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Holidays+World+Tours+and+Travels+Katpadi+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Holidays+World+Tours+and+Travels+Katpadi+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -96,13 +87,13 @@
                   <strong>⏰ Timing:</strong> Monday to Sunday: 9:00 AM – 11:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:8015657754" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 80156 57754</a>
+                  <strong>📞 Phone:</strong> <a href="tel:8015657754" style="color: #000000; font-weight: bold; text-decoration: none;">+91 80156 57754</a>
                 </p>
                 <p style="margin: 0; font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; border-top: 1px dashed var(--gray-200); padding-top: 6px; margin-top: 4px;">
                   <strong>✨ Specialties:</strong> Dedicated medical tourism assistance, patient transport, accommodation, and currency exchange.
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Khans+Tours+And+Travels+Sripuram+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Khans+Tours+And+Travels+Sripuram+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -120,13 +111,13 @@
                   <strong>⏰ Timing:</strong> Monday to Sunday: 10:00 AM – 8:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:9943404408" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 99434 04408</a>
+                  <strong>📞 Phone:</strong> <a href="tel:9943404408" style="color: #000000; font-weight: bold; text-decoration: none;">+91 99434 04408</a>
                 </p>
                 <p style="margin: 0; font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; border-top: 1px dashed var(--gray-200); padding-top: 6px; margin-top: 4px;">
                   <strong>✨ Specialties:</strong> Honeymoon packages, family vacations, corporate MICE trips, and cruise bookings.
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=JSC+Holidays+Allapuram+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=JSC+Holidays+Allapuram+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -144,13 +135,13 @@
                   <strong>⏰ Timing:</strong> Monday to Sunday: 9:00 AM – 10:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:7845957766" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 78459 57766</a>
+                  <strong>📞 Phone:</strong> <a href="tel:7845957766" style="color: #000000; font-weight: bold; text-decoration: none;">+91 78459 57766</a>
                 </p>
                 <p style="margin: 0; font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; border-top: 1px dashed var(--gray-200); padding-top: 6px; margin-top: 4px;">
                   <strong>✨ Specialties:</strong> Medical discount tickets, local sightseeing packages, and patient hotel reservations.
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Rashi+Tours+and+Travels+Saidapet+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Rashi+Tours+and+Travels+Saidapet+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
 
@@ -168,27 +159,52 @@
                   <strong>⏰ Timing:</strong> Monday to Sunday: 9:00 AM – 9:00 PM
                 </p>
                 <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
-                  <strong>📞 Phone:</strong> <a href="tel:9444449242" style="color: var(--accent); font-weight: bold; text-decoration: none;">+91 94444 49242</a>
+                  <strong>📞 Phone:</strong> <a href="tel:9444449242" style="color: #000000; font-weight: bold; text-decoration: none;">+91 94444 49242</a>
                 </p>
                 <p style="margin: 0; font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; border-top: 1px dashed var(--gray-200); padding-top: 6px; margin-top: 4px;">
                   <strong>✨ Specialties:</strong> Family tours, local sightseeing packages, and passport/visa assistance services.
                 </p>
               
-                <a href="https://www.google.com/maps/search/?api=1&query=Sree+Sravanam+Tours+and+Travels+Long+Bazaar+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: flex-start;">Maps</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Sree+Sravanam+Tours+and+Travels+Long+Bazaar+Vellore" target="_blank" class="card-btn" style="margin-top: auto; align-self: center;">Maps</a>
               </div>
             </div>
           </div>
         </div>
-      </main>
+      </div>
+    </section>
+    
+  <!-- Redesigned Red Footer -->
+  <footer class="red-footer">
+    <div class="footer-zigzag"></div>
+    <div class="footer-grid-new">
+      <div class="footer-col-new">
+        <h3>About Vellore</h3>
+        <p>Vellore is an ancient and historically rich urban hub in Tamil Nadu, India, situated on the banks of the Palar River. Celebrated as the "Fort City," it is famous for its magnificent 16th-century fort, Sripuram Golden Temple, and world-renowned medical and educational institutions.</p>
+      </div>
 
-      <!-- Right Sidebar (Enquiry & Testimonial) -->
-      
-<?php include 'includes/right.php'; ?>
+            <div class="footer-col-new">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-new">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="tourist-places.php">Places to Visit</a></li>
+          <li><a href="business-directory.php">Business Directory</a></li>
+          <li><a href="contactus.php">Contact Us</a></li>
+        </ul>
+      </div>
 
-</div>
-
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
-  </div>
+      <div class="footer-col-new">
+        <h3>Follow Us</h3>
+        <div class="footer-socials-new">
+          <a href="#" class="social-circle fb">F</a>
+          <a href="#" class="social-circle ig">I</a>
+          <a href="#" class="social-circle yt">Y</a>
+          <a href="#" class="social-circle tw">X</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-new">
+      <p>Copyright &copy; 2026 | Powered by JB Soft System</p>
+    </div>
+  </footer>
 </body>
 </html>

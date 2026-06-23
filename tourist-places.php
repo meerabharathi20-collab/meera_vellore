@@ -3,245 +3,227 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vellore travels - tourist Places, Important places in vellore, Vellore Travel info, Sight seeing in vellore, Must to see, Vellore Historical places</title>
-  <link rel="stylesheet" href="css.css?v=15">
-  <script src="js.js" defer></script>
+  <title>Places to Visit — Vellore Travels</title>
+  <meta name="description" content="Explore Vellore with our comprehensive city guide. Discover top tourist attractions, historical landmarks, hotels, local business listings, and transit options." />
+  <link rel="stylesheet" href="css.css?v=20">
+  <script src="js.js?v=20" defer></script>
   
 </head>
-<body id="tourist">
-  <div class="wrap">
-    <!-- Header -->
-    <?php include 'includes/header.php'; ?>
+<body>
+  <?php include 'includes/menu.php'; ?>
 
-    <!-- Navigation Menu (Colleges and Online Booking removed) -->
-    <?php include 'includes/menu.php'; ?>
-
-    <!-- Banner Slideshow -->
-    
-
-    <!-- Main Grid -->
-    <div class="main-grid">
-      
-      <!-- Left Sidebar (Tourist Places) -->
-      
-<?php include 'includes/left.php'; ?>
-
-
-      <!-- Main Content Area -->
-      <main class="content-area">
-        <div class="contents">
-          <h1>Tourist <span>Places</span></h1>
-          <p>Explore the rich history, spiritual landmarks, and scenic getaways of Vellore. Here are the top attractions to visit in and around the historic city:</p>
-          
-          <!-- Official Tourist Assistance Banner -->
-          <div class="contact-info-card" style="margin: 20px 0 30px 0; border-left: 4px solid var(--secondary); background: var(--primary-light); display: flex; flex-direction: row; align-items: center; gap: 15px; padding: 15px 20px;">
-            <div style="font-size: 24px; color: var(--secondary);">ℹ️</div>
-            <div>
-              <p style="margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--text-dark);">
-                <strong>Official Tourist Assistance:</strong> For queries or assistance, contact the <strong>Vellore Government Tourist Office</strong> (located at Fort Vellore) at <a href="tel:04162217974" style="color: var(--primary); font-weight: 700;">0416–2217974</a>.
+    <section class="page active" id="page-general">
+      <div class="page-hero">
+        <div class="details-breadcrumbs">
+          <a href="index.php" class="breadcrumb-link" style="color: var(--gray-700);">Home</a> <span style="color: var(--accent); font-weight: 600;">&gt;</span>
+          <span class="breadcrumb-current" style="color: var(--accent); font-weight: 600;">Places to Visit</span>
+        </div>
+        <h1>Places to Visit in Vellore</h1>
+      </div>
+      <div class="section-container">
+        <div class="reveal visible">
+          <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; color: var(--gray-700); font-size: 1.05rem; line-height: 1.6;">
+            Explore the historical wonders, architectural marvels, peaceful sanctuaries, and vibrant culture of Vellore. Explore top attractions and plan your visits with our travel details below.
+          </p>
+          <div class="places-preview-grid">
+            
+          <!-- Card: Sripuram Golden Temple -->
+          <div class="preview-card">
+            <img src="images/new_golden_temple.png" alt="Sripuram Golden Temple">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Sripuram Golden Temple</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                A breathtaking spiritual park at the foot of a small range of green hills, covered in genuine gold foil.
               </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 8:00 AM - 8:00 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> Free (Special Darshan ₹250)
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="golden-temple.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Sripuram+Golden+Temple+Vellore" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
+              </div>
             </div>
           </div>
-
-          <div class="places-grid">
-            <!-- Card 1: Vellore Fort -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="vellorefort.png" alt="Vellore Fort">
-              </div>
-              <div class="place-info">
-                <h3>Vellore Fort</h3>
-                <p class="place-meta">4.3 ⭐ (30.4K) &bull; Fortress</p>
-                <ul>
-                  <li><strong>Address:</strong> Opposite Old Bus Stand, Fort Area, Vellore - 632002</li>
-                  <li><strong>Timings:</strong> 8:00 AM – 6:00 PM (Entry Fee: ₹15)</li>
-                  <li><strong>Location:</strong> <a href="https://maps.google.com/?q=Vellore+Fort" target="_blank" style="color: var(--primary); text-decoration: underline;">View on Google Maps &raquo;</a></li>
-                </ul>
-                <a href="https://maps.google.com/?q=Vellore+Fort" target="_blank" class="card-btn">Maps</a>
-              </div>
-            </div>
-
-            <!-- Card 2: Sripuram Golden Temple -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="golden-temple.jpg" alt="Sripuram Golden Temple">
-              </div>
-              <div class="place-info">
-                <h3>Sripuram Golden Temple</h3>
-                <p class="place-meta">4.4 ⭐ (38.8K) &bull; Hindu Temple</p>
-                <ul>
-                  <li><strong>Address:</strong> Sri Narayani Peedam, Thirumalaikodi, Vellore - 632055</li>
-                  <li><strong>Timings:</strong> 8:00 AM – 8:00 PM (Ph: +91 416 220 6500)</li>
-                  <li><strong>Location:</strong> <a href="https://maps.google.com/?q=Sripuram+Golden+Temple" target="_blank" style="color: var(--primary); text-decoration: underline;">View on Google Maps &raquo;</a></li>
-                </ul>
-                <a href="https://maps.google.com/?q=Sripuram+Golden+Temple" target="_blank" class="card-btn">Maps</a>
+          <!-- Card: Vellore Fort -->
+          <div class="preview-card">
+            <img src="images/new_vellore_fort.png" alt="Vellore Fort">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Vellore Fort</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                Built in the 16th century, this grand fort features massive stone ramparts and a wide, crocodile-infested moat.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 8:00 AM - 6:00 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> Free
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="vellore-fort.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Vellore+Fort+Vellore" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
               </div>
             </div>
-
-            <!-- Card 3: Jalakandeswarar Temple -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="vellore-fort.png" alt="Jalakandeswarar Temple">
-              </div>
-              <div class="place-info">
-                <h3>Jalakandeswarar Temple</h3>
-                <p class="place-meta">4.6 ⭐ (8.7K) &bull; Hindu Temple</p>
-                <ul>
-                  <li><strong>Address:</strong> Inside Vellore Fort Premises, Balaji Nagar, Vellore - 632002</li>
-                  <li><strong>Timings:</strong> 6:30 AM – 1:00 PM & 4:30 PM – 8:30 PM</li>
-                  <li><strong>Location:</strong> <a href="https://maps.google.com/?q=Jalakandeswarar+Temple+Vellore+Fort" target="_blank" style="color: var(--primary); text-decoration: underline;">View on Google Maps &raquo;</a></li>
-                </ul>
-                <a href="https://maps.google.com/?q=Jalakandeswarar+Temple+Vellore+Fort" target="_blank" class="card-btn">Maps</a>
-              </div>
-            </div>
-
-            <!-- Card 4: Government Museum -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="govtmuseum.png" alt="Government Museum">
-              </div>
-              <div class="place-info">
-                <h3>Government Museum</h3>
-                <p class="place-meta">4.1 ⭐ (974) &bull; Museum</p>
-                <ul>
-                  <li><strong>Address:</strong> Inside Vellore Fort, Fort Area, Vellore - 632002</li>
-                  <li><strong>Timings:</strong> 9:00 AM – 12:30 PM & 2:00 PM – 5:00 PM</li>
-                  <li>* Closed on Tuesdays and Public Holidays</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Government+Museum+Vellore+Fort" target="_blank" class="card-btn">Maps</a>
+          </div>
+          <!-- Card: Jalakandeswarar Temple -->
+          <div class="preview-card">
+            <img src="images/new_jalakandeswarar.png" alt="Jalakandeswarar Temple">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Jalakandeswarar Temple</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                An exquisite example of Dravidian architecture famous for its detailed stone carvings inside the Vellore Fort.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 6:30 AM - 1:00 PM & 5:00 PM - 8:30 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> Free
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="jalakandeswarar-temple.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Jalakandeswarar+Temple+Vellore" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
               </div>
             </div>
-
-            <!-- Card 5: St. John's Church -->
-            <div class="place-card">
-              <div class="place-img-container" style="background-color: #f0f4f8; display: flex; align-items: center; justify-content: center;">
-                <img src="st-johns-church.png" alt="St. John's Church" style="object-fit: contain; width: auto; height: 100%; max-height: 220px;">
-              </div>
-              <div class="place-info">
-                <h3>St. John's Church</h3>
-                <p class="place-meta">4.4 ⭐ (447) &bull; Church</p>
-                <ul>
-                  <li><strong>Address:</strong> Inside Vellore Fort, Fort Area, Vellore - 632002</li>
-                  <li><strong>Timings:</strong> 9:00 AM – 5:00 PM</li>
-                  <li><strong>Reference:</strong> British-era historic church from 1846</li>
-                </ul>
-                <a href="https://maps.google.com/?q=St.+John's+Church+Vellore+Fort" target="_blank" class="card-btn">Maps</a>
-              </div>
-            </div>
-
-            <!-- Card 6: Ratnagiri Murugan Temple -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="golden-temple.jpg" alt="Ratnagiri Murugan Temple" style="filter: brightness(0.85) contrast(1.15);">
-              </div>
-              <div class="place-info">
-                <h3>Ratnagiri Murugan Temple</h3>
-                <p class="place-meta">4.7 ⭐ (6.1K) &bull; Hill Temple</p>
-                <ul>
-                  <li><strong>Address:</strong> Kilminnal, Ratnagiri, Vellore District - 632517</li>
-                  <li><strong>Timings:</strong> 6:00 AM – 1:00 PM & 4:00 PM – 8:00 PM</li>
-                  <li>* Hill temple dedicated to Lord Murugan</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Ratnagiri+Murugan+Temple+Vellore" target="_blank" class="card-btn">Maps</a>
+          </div>
+          <!-- Card: Amirthi Forest & Waterfalls -->
+          <div class="preview-card">
+            <img src="images/amrithi_zoo.jpg" alt="Amirthi Forest & Waterfalls">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Amirthi Forest & Waterfalls</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                A peaceful sanctuary and nature park featuring seasonal waterfalls, trekking paths, and a small zoo.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 8:00 AM - 5:00 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> ₹10 per person
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="amrithi-forest.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Amirthi+Zoological+Park+Vellore" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
               </div>
             </div>
-
-            <!-- Card 7: Vallimalai Murugan Temple -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="golden-temple.jpg" alt="Vallimalai Murugan Temple" style="filter: brightness(0.9) saturate(0.9);">
-              </div>
-              <div class="place-info">
-                <h3>Vallimalai Murugan Temple</h3>
-                <p class="place-meta">4.7 ⭐ (1.2K) &bull; Cave Temple</p>
-                <ul>
-                  <li><strong>Address:</strong> Vallimalai Hill, Vellore District - 632520</li>
-                  <li><strong>Timings:</strong> 6:00 AM – 7:00 PM</li>
-                  <li>* Ancient cave temple carved directly into rocky hills</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Vallimalai+Murugan+Temple+Vellore" target="_blank" class="card-btn">Maps</a>
-              </div>
-            </div>
-
-            <!-- Card 8: Amirthi Zoological Park -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="amirthi-forest.png" alt="Amirthi Zoological Park">
-              </div>
-              <div class="place-info">
-                <h3>Amirthi Zoo & Park</h3>
-                <p class="place-meta">3.7 ⭐ (3.2K) &bull; Zoo / Park</p>
-                <ul>
-                  <li><strong>Address:</strong> Amirthi, Near Javadu Hills, Vellore - 632102</li>
-                  <li><strong>Timings:</strong> 8:00 AM – 5:00 PM (Closed on Tuesdays)</li>
-                  <li>* Peaceful forest getaway with seasonal waterfall</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Amirthi+Zoological+Park+Vellore" target="_blank" class="card-btn">Maps</a>
+          </div>
+          <!-- Card: Government Museum -->
+          <div class="preview-card">
+            <img src="images/new_govt_museum.png" alt="Government Museum">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Government Museum</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                A historic treasure house within Vellore Fort displaying weapons, sculptures, woodcarvings, and botanical exhibits.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 9:00 AM - 12:30 PM & 2:00 PM - 5:00 PM (Closed Fridays)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> ₹5 (Indians), ₹100 (Foreigners)
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="govt-museum.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Government+Museum+Vellore+Fort" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
               </div>
             </div>
-
-            <!-- Card 9: Jalagamparai Waterfalls -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="jalgamparai-falls.png" alt="Jalagamparai Waterfalls">
-              </div>
-              <div class="place-info">
-                <h3>Jalagamparai Falls</h3>
-                <p class="place-meta">4.1 ⭐ (5.5K) &bull; Waterfalls</p>
-                <ul>
-                  <li><strong>Address:</strong> Nagalathu Extension R F, Yelagiri Hills area, Tamil Nadu</li>
-                  <li><strong>Timings:</strong> Best visited right after the monsoon</li>
-                  <li>* Scenic cascade created by the Attaru river</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Jalagamparai+Waterfalls+Yelagiri" target="_blank" class="card-btn">Maps</a>
-              </div>
-            </div>
-
-            <!-- Card 10: Vainu Bappu Observatory -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="observatory.png" alt="Vainu Bappu Observatory">
-              </div>
-              <div class="place-info">
-                <h3>Vainu Bappu Observatory</h3>
-                <p class="place-meta">4.4 ⭐ (598) &bull; Observatory</p>
-                <ul>
-                  <li><strong>Address:</strong> Vainu Bappu Observatory, Kavalur - 635701</li>
-                  <li><strong>Timings:</strong> Prior permission needed for stargazing</li>
-                  <li>* Houses one of Asia's largest optical telescopes</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Vainu+Bappu+Observatory+Kavalur" target="_blank" class="card-btn">Maps</a>
+          </div>
+          <!-- Card: Fundera Park -->
+          <div class="preview-card">
+            <img src="images/fundera_park.jpg" alt="Fundera Park">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Fundera Park</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                A unique interactive pet park with over 300 exotic birds and animals, where visitors can feed and hold them.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 9:30 AM - 6:30 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> ₹250 (Adults), ₹150 (Children)
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="fundera-park.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Fundera+Park+Yelagiri" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
               </div>
             </div>
-
-            <!-- Card 11: Yelagiri Hills -->
-            <div class="place-card">
-              <div class="place-img-container">
-                <img src="yelagiri-hills.png" alt="Yelagiri Hills">
-              </div>
-              <div class="place-info">
-                <h3>Yelagiri Hills</h3>
-                <p class="place-meta">4.2 ⭐ (8.5K) &bull; Hill Station</p>
-                <ul>
-                  <li><strong>Address:</strong> Yelagiri, Vellore District, Tamil Nadu</li>
-                  <li><strong>Timings:</strong> Accessible 24 hours (Daytime best for travel)</li>
-                  <li>* Scenic hill station with orchards, rose gardens, and lakes</li>
-                </ul>
-                <a href="https://maps.google.com/?q=Yelagiri+Hills" target="_blank" class="card-btn">Maps</a>
+          </div>
+          <!-- Card: St. John's Church -->
+          <div class="preview-card">
+            <img src="images/st_johns_church.jpg" alt="St. John's Church">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">St. John's Church</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                A historic colonial-era church built in 1846 by the East India Company, featuring high ceilings and beautiful stained glass windows.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 9:00 AM - 6:00 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> Free
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="st-johns-church.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=St.+John's+Church+Vellore+Fort" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
               </div>
             </div>
+          </div>
+          <!-- Card: Ratnagiri Murugan Temple -->
+          <div class="preview-card">
+            <img src="images/ratnagiri-balamurugan-temple-vellore.webp" alt="Ratnagiri Murugan Temple">
+            <div class="preview-card-body" style="display: flex; flex-direction: column; gap: 8px;">
+              <h3 style="margin-bottom: 0.2rem; color: var(--primary);">Ratnagiri Murugan Temple</h3>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; min-height: 4.8rem;">
+                A 14th-century hill temple dedicated to Lord Balamurugan, offering scenic views and a peaceful spiritual atmosphere.
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5; margin-top: auto;">
+                <strong>🕒 Timings:</strong> 6:00 AM - 1:00 PM & 4:00 PM - 8:00 PM (Daily)
+              </p>
+              <p style="margin: 0; font-size: 0.88rem; color: var(--gray-700); line-height: 1.5;">
+                <strong>💰 Entry Fee:</strong> Free
+              </p>
+              <div style="margin-top: 10px; display: flex; gap: 10px;">
+                <a href="ratnagiri-murugan-temple.php" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;">Details</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=Ratnagiri+Murugan+Temple+Vellore" target="_blank" class="card-btn" style="background: var(--accent); color: white; padding: 6px 12px; border-radius: 4px; font-weight: 600; font-size: 0.82rem; text-transform: uppercase; text-align: center; flex: 1;" onclick="event.stopPropagation()">Maps</a>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
-      </main>
+      </div>
+    </section>
+    
+  <!-- Redesigned Red Footer -->
+  <footer class="red-footer">
+    <div class="footer-zigzag"></div>
+    <div class="footer-grid-new">
+      <div class="footer-col-new">
+        <h3>About Vellore</h3>
+        <p>Vellore is an ancient and historically rich urban hub in Tamil Nadu, India, situated on the banks of the Palar River. Celebrated as the "Fort City," it is famous for its magnificent 16th-century fort, Sripuram Golden Temple, and world-renowned medical and educational institutions.</p>
+      </div>
 
-      <!-- Right Sidebar (Enquiry & Testimonial) -->
-      
-<?php include 'includes/right.php'; ?>
+            <div class="footer-col-new">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-new">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="tourist-places.php">Places to Visit</a></li>
+          <li><a href="business-directory.php">Business Directory</a></li>
+          <li><a href="contactus.php">Contact Us</a></li>
+        </ul>
+      </div>
 
-</div>
-
-    <!-- Footer -->
-    <?php include 'includes/footer.php'; ?>
-  </div>
+      <div class="footer-col-new">
+        <h3>Follow Us</h3>
+        <div class="footer-socials-new">
+          <a href="#" class="social-circle fb">F</a>
+          <a href="#" class="social-circle ig">I</a>
+          <a href="#" class="social-circle yt">Y</a>
+          <a href="#" class="social-circle tw">X</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-new">
+      <p>Copyright &copy; 2026 | Powered by JB Soft System</p>
+    </div>
+  </footer>
 </body>
 </html>
