@@ -1553,7 +1553,7 @@ body {
   right: 20px;
   width: 50px;
   height: 50px;
-  background-image: url('../images/back-button.png');
+  background-image: url('back-button.png');
   background-size: cover;
   background-color: transparent;
   color: transparent;
